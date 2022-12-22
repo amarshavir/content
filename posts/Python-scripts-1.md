@@ -16,6 +16,8 @@ I do not have the files for the base game; if I find the Replit file, I will mak
 the more complicated procedure that I eluded to before was adding variable board sizing. This dynamic board sizing was an exercise in mental gymnastics.
 
 The full code file:
+
+
     def main():
     import os
     global b
