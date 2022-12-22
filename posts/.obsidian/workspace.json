@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-1.md",
+                "file": "Python-scripts-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test-1.md",
+                "file": "Python-scripts-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test-1.md",
+                "file": "Python-scripts-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test-1.md"
+                "file": "Python-scripts-1.md"
               }
             }
           }
@@ -138,6 +138,10 @@
   },
   "active": "997a1cad97a063fb",
   "lastOpenFiles": [
+    "hollow.md",
+    "goisforlovers.md",
+    "creating-a-new-theme.md",
+    "test-1.md",
     "MythsAndCommunity.md",
     "pink or orange.md",
     "face.md"
