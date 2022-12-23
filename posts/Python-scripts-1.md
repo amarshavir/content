@@ -17,7 +17,7 @@ the more complicated procedure that I eluded to before was adding variable board
 
 The game was initialized using a relatively simple setup. Definition vars as needed and whatnot. The worst thing about my original code was my gosh darn global vars. Do not use or make anything like this. I want to cry reading back at my old code.
 
-
+```python
     def main():
     import os
     global b
@@ -189,12 +189,12 @@ The game was initialized using a relatively simple setup. Definition vars as nee
             end_game()
 
     main()    
-
+```
 
 The single most important line to make the dynamic board sizing is
-
+```python
     ls = [board[x:x + b] for x in range(0, len(board), b)]
-
+```
 This line iterates over the index to create a hashmap. I will not lie. I totally copy pasted this line from StackOverflow from 3 years ago. Oddly enough, it was the only line I copied, but it also happened to be the most significant.
 
 
@@ -202,7 +202,7 @@ This line iterates over the index to create a hashmap. I will not lie. I totally
 
 I wrote the original code for my class in April 2020, but later that year, I had a day of free time in October, which I proceeded to spend on pointless activities. I wanted to update my code base. Funny enough, my old code was so bad it was easier for me to create an entirely new program from start to finish.
 
-
+```python
     import os
     def cls():
         os.system('cls' if os.name=="nt" else 'clear')
@@ -290,15 +290,15 @@ I wrote the original code for my class in April 2020, but later that year, I had
             game.active = False
             print("winner : " + game.players[0])
         game.players.reverse()
-
+```
 
 I completed my goal of making the game with cleaner, more "pythonic" code. I removed all of the global vars and had a great time spamming for j and i loops.
 You might have noticed I carried over my magical board rendering method.
 
 
-
+```python
     [self.board[x:x + self.size] for x in range(0, (self.size) **2, self.size)]
-
+```
 
 Since the line was never hard coded on any set values. Building the new source code with this line as the base was a relatively easy task.
 
