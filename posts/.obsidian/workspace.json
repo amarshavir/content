@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1fa359a06c0e772",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Iva.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python-scripts-1.md",
+                "file": "Iva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python-scripts-1.md",
+                "file": "Iva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python-scripts-1.md"
+                "file": "Iva.md"
               }
             }
           }
@@ -136,8 +149,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "997a1cad97a063fb",
+  "active": "a1fa359a06c0e772",
   "lastOpenFiles": [
+    "Python-scripts-1.md",
+    "Iva.md",
     "hollow.md",
     "goisforlovers.md",
     "creating-a-new-theme.md",
