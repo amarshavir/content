@@ -1,8 +1,9 @@
 +++
 title = "God's Gift"
-tags = ["short stories"]
+tags = ["short stories", "archive"]
 date = "2023-1-1"
 author = "Robel Schwarz"
+draft 
 +++
 
 In a time before creation, there was darkness, with a light from which the universe and time truly began; shadows and anachronism emerged to balance the universe. When the God of the stars and all that is good creates new majestic life, a soul is born into the abyss below. In the godless void, a wonders soul was created, a soul named Isayas.
