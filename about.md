@@ -3,10 +3,10 @@ title = "About"
 +++
 
 
-##intro intro
+## intro intro
 I am incredibly lazy, and instead of writing original content for my about page, I will simply copy-paste my common application. I never ended up applying to any university with it, but I do think it does an ok job at representing me and my personality.
  
-#Void
+# Void
 Each step is no more complicated than the last, a simple motion, a progression in thought. Walking is always different and never distinct. When walking, the world becomes a void and nothing more than a background to the universes in your head. In my universe, there is a shining star. 
 
 Outside of religion and higher powers, the justifications for natural laws and moral rights feel like 4th-dimensional mental gymnastics. One of the more debated philosophical concepts is the simple question, "what is the meaning of life?" Religion's more innate and extraordinary power is that it provides meaning to life, but without it, one finds ideologies that vary in quality. If you were to ask some hitchhiker this question, you might get something as random as the number 42. 3rd-century philosopher saint Augustine believed that God is good and the word of God is good; anything outside of God and his teachings is the source of evil. A life without God creates a void, and that void, I believe, is often misrepresented. The philosophical emptiness of nihilism.
