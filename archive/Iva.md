@@ -1,6 +1,6 @@
 +++
 title = "God's Gift"
-tags = ["short stories", "archive"]
+tags = ["short stories"]
 date = "2023-1-1"
 author = "Robel Schwarz"
 draft 
