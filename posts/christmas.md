@@ -1,6 +1,6 @@
 +++
 title =  "A Orothodox christmas"
-tags = ["Religion"]
+tags = ["Religion", "Philosophy"]
 date = "2023-01-10"
 +++
 
