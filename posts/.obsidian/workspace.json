@@ -11,12 +11,8 @@
             "id": "997a1cad97a063fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MLK.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -35,12 +31,8 @@
             "id": "a1fa359a06c0e772",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "creating-a-new-theme.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -53,12 +45,8 @@
             "id": "91b40d161543a1fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "creating-a-new-theme.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -127,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MLK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MLK.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MLK.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -178,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "997a1cad97a063fb",
+  "active": "409bc5116525c1d9",
   "lastOpenFiles": [
-    "christmas.md",
+    "test-1.md",
+    "Python-scripts-1.md",
     "MythsAndCommunity.md",
     "MLK.md",
+    "christmas.md",
     "creating-a-new-theme.md",
-    "Python-scripts-1.md",
     "archive/Iva.md",
     "hollow.md",
     "goisforlovers.md",
-    "test-1.md",
     "pink or orange.md"
   ]
 }
