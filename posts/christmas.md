@@ -1,5 +1,5 @@
 +++
-title =  "A Orothodox christmas"
+title =  "A Orthodox christmas"
 tags = ["Religion", "Philosophy"]
 date = "2023-01-10"
 author = "Robel Schwarz"
