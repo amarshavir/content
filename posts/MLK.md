@@ -1,5 +1,5 @@
 +++
-title = "Development"
+title = "MLK"
 tags = ["Philosophy"]
 date = "2022-09-21"
 author = Robel Schwarz
