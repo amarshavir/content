@@ -2,6 +2,7 @@
 title = "Development"
 tags = ["Philosophy"]
 date = "2022-08-22"
+author = "Robel Schwarz"
 +++
 ## Introduction
 
