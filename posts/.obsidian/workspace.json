@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anger.md",
+                "file": "anger.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anger.md",
+                "file": "anger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anger.md",
+                "file": "anger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anger.md"
+                "file": "anger.md"
               }
             }
           }
@@ -169,10 +169,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f0dd6d804a5e7605",
+  "active": "409bc5116525c1d9",
   "lastOpenFiles": [
     "christmas.md",
-    "Anger.md",
+    "anger.md",
     "MythsAndCommunity.md",
     "goisforlovers.md",
     "test-1.md",
