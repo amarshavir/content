@@ -11,8 +11,24 @@
             "id": "997a1cad97a063fb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MythsAndCommunity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0dd6d804a5e7605",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anger.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -35,21 +51,8 @@
               "state": {}
             }
           }
-        ]
-      },
-      {
-        "id": "012c5814c38c2729",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "91b40d161543a1fb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Anger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Anger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Anger.md"
+              }
             }
           }
         ]
@@ -162,17 +169,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "409bc5116525c1d9",
+  "active": "f0dd6d804a5e7605",
   "lastOpenFiles": [
+    "christmas.md",
+    "Anger.md",
+    "MythsAndCommunity.md",
+    "goisforlovers.md",
     "test-1.md",
     "Python-scripts-1.md",
-    "MythsAndCommunity.md",
     "MLK.md",
-    "christmas.md",
     "creating-a-new-theme.md",
     "archive/Iva.md",
-    "hollow.md",
-    "goisforlovers.md",
-    "pink or orange.md"
+    "hollow.md"
   ]
 }
