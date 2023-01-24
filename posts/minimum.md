@@ -1,4 +1,9 @@
-
++++
+title = "The Minimum Wage"
+tags = ["econ", "politics"]
+date = "2022-04-21"
+author = "Robel Schwarz"
++++
 ## History
 The history of the minimum wage in the United States dates back to the early 20th century. The first federal minimum wage law, the Fair Labor Standards Act (FLSA), was passed in 1938 as part of President Franklin D. Roosevelt's New Deal. The initial rate was set at 25 cents per hour and covered workers in specific industries, such as manufacturing and transportation.
 

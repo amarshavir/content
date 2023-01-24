@@ -1,6 +1,6 @@
 +++
 title = "MLK"
-tags = ["Philosophy"]
+tags = ["philosophy"]
 date = "2022-09-21"
 author = "Robel Schwarz"
 +++

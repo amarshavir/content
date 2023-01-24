@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "minimum.md",
+                "file": "anger.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "minimum.md",
+                "file": "anger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "minimum.md",
+                "file": "anger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "minimum.md"
+                "file": "anger.md"
               }
             }
           }
@@ -205,12 +205,12 @@
   },
   "active": "bae72b55b0169def",
   "lastOpenFiles": [
+    "christmas.md",
+    "hollow.md",
+    "minimum.md",
     "MLK.md",
     "MythsAndCommunity.md",
-    "minimum.md",
-    "hollow.md",
     "Python-scripts-1.md",
-    "christmas.md",
     "anger.md",
     "goisforlovers.md",
     "test-1.md",

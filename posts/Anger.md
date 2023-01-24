@@ -1,6 +1,6 @@
 +++
 title =  "Things that make me irrationally angry"
-tags = ["Philosophy"]
+tags = ["philosophy"]
 date = "2023-01-10"
 author = "Robel Schwarz"
 +++
