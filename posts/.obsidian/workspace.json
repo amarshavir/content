@@ -55,14 +55,28 @@
             "id": "7d0f9084cd927e65",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.9"
+                "file": "Python-scripts-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bae72b55b0169def",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "minimum.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -128,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "anger.md",
+                "file": "minimum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "anger.md",
+                "file": "minimum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "anger.md"
+                "file": "minimum.md"
               }
             }
           }
@@ -189,17 +203,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d0f9084cd927e65",
+  "active": "bae72b55b0169def",
   "lastOpenFiles": [
+    "MLK.md",
+    "MythsAndCommunity.md",
+    "minimum.md",
+    "hollow.md",
+    "Python-scripts-1.md",
     "christmas.md",
     "anger.md",
-    "MythsAndCommunity.md",
     "goisforlovers.md",
     "test-1.md",
-    "Python-scripts-1.md",
-    "MLK.md",
-    "creating-a-new-theme.md",
-    "archive/Iva.md",
-    "hollow.md"
+    "creating-a-new-theme.md"
   ]
 }
