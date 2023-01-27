@@ -1,7 +1,7 @@
 +++
 title = "The Minimum Wage"
 tags = ["econ", "politics"]
-date = "2022-04-21"
+date = "2023-1-24"
 author = "Robel Schwarz"
 +++
 ## History

@@ -69,14 +69,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anger.md",
+                "file": "Python-scripts-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94e8412e601ecd7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "deletion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "anger.md",
+                "file": "deletion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "anger.md",
+                "file": "deletion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "anger.md"
+                "file": "deletion.md"
               }
             }
           }
@@ -203,17 +215,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bae72b55b0169def",
+  "active": "94e8412e601ecd7d",
   "lastOpenFiles": [
-    "christmas.md",
     "hollow.md",
+    "deletion.md",
     "minimum.md",
-    "MLK.md",
-    "MythsAndCommunity.md",
+    "christmas.md",
     "Python-scripts-1.md",
     "anger.md",
+    "MLK.md",
+    "MythsAndCommunity.md",
     "goisforlovers.md",
-    "test-1.md",
-    "creating-a-new-theme.md"
+    "test-1.md"
   ]
 }
