@@ -1,7 +1,7 @@
 +++
-title = "war on morality"
+title = "War on Morality"
 tags = ["religion", "politics","philosophy"]
-date = "2022-04-21"
+date = "2023-01-26"
 author = "Robel Schwarz"
 +++
 
