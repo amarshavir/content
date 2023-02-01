@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "deletion.md",
+                "file": "anger.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deletion.md",
+                "file": "anger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "deletion.md",
+                "file": "anger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "deletion.md"
+                "file": "anger.md"
               }
             }
           }
@@ -217,14 +217,14 @@
   },
   "active": "94e8412e601ecd7d",
   "lastOpenFiles": [
-    "hollow.md",
-    "deletion.md",
-    "minimum.md",
     "christmas.md",
-    "Python-scripts-1.md",
-    "anger.md",
+    "deletion.md",
+    "hollow.md",
+    "minimum.md",
     "MLK.md",
     "MythsAndCommunity.md",
+    "Python-scripts-1.md",
+    "anger.md",
     "goisforlovers.md",
     "test-1.md"
   ]
