@@ -86,9 +86,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "63db01b0cc57c71b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "angels.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "anger.md",
+                "file": "angels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "anger.md",
+                "file": "angels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "anger.md"
+                "file": "angels.md"
               }
             }
           }
@@ -215,8 +227,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94e8412e601ecd7d",
+  "active": "63db01b0cc57c71b",
   "lastOpenFiles": [
+    "anger.md",
+    "angels.md",
     "christmas.md",
     "deletion.md",
     "hollow.md",
@@ -224,8 +238,6 @@
     "MLK.md",
     "MythsAndCommunity.md",
     "Python-scripts-1.md",
-    "anger.md",
-    "goisforlovers.md",
-    "test-1.md"
+    "goisforlovers.md"
   ]
 }
