@@ -16,15 +16,15 @@ Muslims believe that angels were created by Allah (God) and are made of light. T
 
 Angels have several vital roles in Islam, including:
 
-1.  Messengers: Angels are often described as messengers from Allah and are said to convey Allah's messages to humans.
+- _Messengers_: from Allah and are said to convey Allah's messages to humans.
     
-2.  Recorders: Angels are believed to record a person's thoughts, words, and actions.
+- _Recorders_: of a  person's thoughts, words, and actions.
     
-3.  Protectors: Angels are also seen as protectors of human beings, with each person having two angels who record their actions.
+- _Protectors_: of human beings, with each person having two angels who record their actions.
     
-4.  Guardians: In Islam, angels are also believed to be the guardians of heaven and hell and to be responsible for guarding the gates of each.
+- _Guardians_:  of heaven and hell and to be responsible for guarding the gates of each.
     
-5.  Intermediaries: Angels are considered intermediaries between Allah and humans, carrying out his commands and responding to human needs and prayers.
+- _Intermediaries_: between Allah and humans, carrying out his commands and responding to human needs and prayers.
     
 
 Islam recognizes several specific angels, including Gabriel (Jibreel), Michael (Mika'il), and Azrael (Izra'il), who are mentioned in the Qur'an. Each angel is believed to have a unique role and responsibility in serving Allah and the world.
@@ -52,7 +52,7 @@ angelic fallen.
 #### The Morning Star
 In Christian and Jewish traditions, the fall of the angels is typically associated with the story of Lucifer, a high-ranking angel who rebelled against God and was cast out of heaven as a result. According to tradition, Lucifer and the angels who followed him became demons and are now seen as agents of evil and corruption in the world. Or at least that is the popular interpretation of Lucifer. The name Lucifer only appears once throughout the Bible in the Old Testament.
 
-Isaiah 14:12-15 [KJV]("https://www.biblegateway.com/passage/?search=Isaiah%2014&version=KJV")
+Isaiah 14:12-15 KJV
 
 - 12 *How art thou fallen from heaven, O Lucifer, son of the morning! how art thou cut down to the ground, which didst weaken the nations!*
 - 13 *For thou hast said in thine heart, I will ascend into heaven, I will exalt my throne above the stars of God: I will sit also upon the mount of the congregation, in the sides of the north:*
@@ -70,7 +70,7 @@ This misconception about Lucifer is rather frustrating as it is a core aspect of
 
 #### The Poison of God
 
-[Samael](https://www.britannica.com/topic/Samael) is a name that is associated with various religious traditions, including Judaism, Christianity, and Gnosticism. My *favorite* interpretation of Samael is within the Talmudic and post-Talmudic literature. Samael holds the title of the left hand of God and his name directly translates to the venom of God.  In Jewish tradition, Samael is sometimes portrayed as an angel or demon who is associated with death and destruction. In some texts, Samael is depicted as the accuser of God's people and as the leader of the evil spirits a synonym for Satan. 
+Samael  is a name that is associated with various religious traditions, including Judaism, Christianity, and Gnosticism. My *favorite* interpretation of Samael is within the Talmudic and post-Talmudic literature. Samael holds the title of the left hand of God and his name directly translates to the venom of God.  In Jewish tradition, Samael is sometimes portrayed as an angel or demon who is associated with death and destruction. In some texts, Samael is depicted as the accuser of God's people and as the leader of the evil spirits a synonym for Satan. 
 
 Most importantly, however, Samael is directly responsible for the fall of Adam as Samael was the one who seduced Eve in the garden of Eden. From his Affiar with Eve, a child was born. Humanities first murderer and the man cursed to eternally walk barren lands, Cain.
 
