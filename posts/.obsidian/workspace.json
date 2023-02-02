@@ -8,86 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "997a1cad97a063fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MythsAndCommunity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0dd6d804a5e7605",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anger.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0da787afed77678",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MythsAndCommunity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1fa359a06c0e772",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7d0f9084cd927e65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python-scripts-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bae72b55b0169def",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python-scripts-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94e8412e601ecd7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anger.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "63db01b0cc57c71b",
             "type": "leaf",
             "state": {
@@ -99,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cb1095b2f8b758a1",
@@ -230,14 +150,14 @@
   "active": "63db01b0cc57c71b",
   "lastOpenFiles": [
     "anger.md",
+    "Python-scripts-1.md",
     "angels.md",
-    "christmas.md",
-    "deletion.md",
     "hollow.md",
     "minimum.md",
     "MLK.md",
     "MythsAndCommunity.md",
-    "Python-scripts-1.md",
+    "christmas.md",
+    "deletion.md",
     "goisforlovers.md"
   ]
 }
