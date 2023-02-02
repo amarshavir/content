@@ -7,7 +7,7 @@ author = "Robel Schwarz"
 
 ## Introduction
 
-For as long as I can remember, I have been fascinated with the divine and their counterparts, whether they be demons, djins, or any other spiritual manifestation of power. While admittedly, they are a figment of my obsession with power, angels also serve as a foundation for the universe in a cosmological sense to maintain _balance_.
+For as long as I can remember, I have been fascinated with the divine and their counterparts, whether they be demons, djins, or any other spiritual manifestation of power. While admittedly, they are a figment of my obsession with power, angels also serve as a foundation for the universe in a cosmological sense to maintain _balance_. 
 
 ## The Servants of Allah
 In Islam, angels are considered part of the unseen world and are believed to play a significant role in the daily life of a Muslim.
@@ -122,11 +122,13 @@ Reflect on the countless interpretations of the concept of God that have emerged
 
 But Angels, angels don't have to suffer, do they? They already live in heaven; what more could anyone want? I used to be able to ease my mind by using the rationality that Angels are Slaves, and in Islam, they are. However, Being inclined to be Jedo-Christian, my mind is constantly stuck on the thought of hating my mortality.
 
-If Angels have free will to sin, falter, and fall while being creations of unspeakable power and the ability to fight demons. How is humanity Gifted? Instead, humanity is cursed with the existence of the celestials. The Nephilim, unholy spawn of the Watchers, ravished the sons of man until the flood. Samael Orchestrated the fall of Adam and then fathered the first great sinner and the demon race. Even if you do not subscribe to Samael's existence, he still exists in the morning star.
+If Angels have free will to sin, falter, and fall while being creations of unspeakable power and the ability to fight demons. How is humanity Gifted? Instead, humanity is cursed with the existence of the celestials. The Nephilim, unholy spawn of the Watchers, ravished the sons of man until the flood. Samael Orchestrated the fall of Adam and then fathered the first great sinner and the demon race. Even if you do not subscribe to Samael's existence, he still exists conceptionally in the morning star.
 
-Despite the existence of suffering, uncertainty, and the idea of some being destined for hell, it is all part of a larger divine plan. However, the phrase "God's plan" is often used to justify unjust suffering, which is not acceptable. When I refer to "God's plan," I acknowledge that everything we encounter in life is small in comparison to the greater cosmic picture. I hold the belief that there is a righteous way to live and that each individual has their own understanding of what that means.
+Despite the existence of suffering and uncertainty that humanity is faced with, it is all part of a larger divine plan. However, the phrase "God's plan" is often used to justify unjust suffering, which is not acceptable. When I refer to "God's plan," I acknowledge that everything we encounter in life is small in comparison to the greater cosmic picture. I hold the belief that there is a righteous way to live and that each individual has their own understanding of what that means.  I do not believe I will ever have all my questions answered to the extent that I desire. That uncertainty about life is what makes it worth living.
 
-I do not believe I will ever have all my questions answered to the extent that I desire, and that is just. That uncertainty about life is what makes it worth living. The only certainty is that humanity possesses free will. Live in uncertainty, connect with those around you, and embrace their unique perspectives. We live mortal lives; each decision we make from sunrise to sunset is how we will be remembered when we pass on. I argue you live each moment as if it were your last and do not let differences in beliefs or ideologies prevent you from seeing the humanity in others. Stay true to yourself and your convictions, and may an angel of God guide you to your paradise.
+The only certainty is that humanity possesses free will. Live in uncertainty, connect with those around you, and embrace their unique perspectives. We live mortal lives; each decision we make from sunrise to sunset is how we will be remembered when we pass on. I argue you live each moment as if it were your last. Do not let differences in beliefs or ideologies prevent you from seeing the humanity in others.
+
+As humans, we are free to suffer in our own ways, and because of that, relief is all the more joyous. In a way, we are more blessed than the celestials. Man is born with a clean slate; ultimately, free will does not mean being free of consequence.  Stay true to yourself and your convictions, and may an angel of God guide you to your paradise.
 
 
 
