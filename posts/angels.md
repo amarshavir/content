@@ -106,6 +106,14 @@ In these traditions, fallen angels are seen as having once been good and obedien
 The concept of fallen angels is an important part of many religious traditions and is closely tied to the beliefs about the nature of good and evil, the balance of power between the divine realm and the mortal world, and the idea of divine justice and retribution.
 
 
+## Separation of Divine
+
+In Hinduism, devas are celestial beings or gods that are responsible for various natural phenomena and are worshiped as such. They are often portrayed as having supernatural powers and are seen as divine beings of light and goodness. Devas play a significant role in Hindu mythology and are often depicted as having an ongoing struggle with the asuras, which are considered forces of evil.
+
+In Buddhism, devas are also seen as divine beings that inhabit higher realms and possess supernatural abilities. However, unlike Hinduism, Buddhism does not worship them as gods but rather sees them as beings that have achieved a higher level of spiritual enlightenment. According to Buddhist teachings, devas have the ability to assist and guide human beings toward enlightenment, but they are still considered to be bound by the cycle of birth and death, just like all other beings. Ultimately, the goal of a Buddhist is to achieve enlightenment and become a deva. Overall, the concept of celestial beings in Buddhism and Hinduism is different from that in Western religions, as the focus in those beliefs is on individual spiritual development and the attainment of enlightenment rather than a belief in a hierarchy of divine beings.
+
+Because of the overall cosmological structure of Hinduism, Buddhism, and other closely related eastern faiths, their celestials do not appear to have any "fallen" ones. Those who would be classified as evil are almost preordained as such. 
+
 ## The Will of Man
 
 The reasons for why God created humanity vary depending on the religious tradition and belief system.
