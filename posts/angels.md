@@ -1,7 +1,7 @@
 +++
 title =  "Will"
 tags = ["philosophy", "religion"]
-date = "2023-02-1"
+date = "2023-02-01"
 author = "Robel Schwarz"
 +++
 

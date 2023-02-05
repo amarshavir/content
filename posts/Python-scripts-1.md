@@ -1,5 +1,5 @@
 +++
-title = "Pythonic activies - tik tac toe"
+title = "Pythonic"
 tags = ["development" , "python"]
 date = "2022-12-22"
 author = "Robel Schwarz"
