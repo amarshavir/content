@@ -39,7 +39,7 @@ Currently, the federal minimum wage is $7.25 per hour; however, several states a
 A theoretical bill to increase the minimum wage to 15$ over the course of 5 years.
 It is not good but it is an easy baseline to follow as a barebones template.
 
-__Section 1.__ Short Title
+__Section 1.__ Minimum
 
 This Act may be cited as the "Fair Minimum Wage Act of 2023".
 
