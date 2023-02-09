@@ -4,13 +4,13 @@ title = "Valentine"
 
 In a world that's always spinning,
 Where the days just come and go,
-I'm searching for a *[Love]("/Love")* worth winning,
-A flame that will *[Always]("/Always")* glow.
+I'm searching for a *[Love](/Love)* worth winning,
+A flame that will *[Always](/Always)* glow.
 
 I've walked the path of heartbreak,
 And felt the sting of pain,
 But I keep moving forward, for love's sake,
-*[Yearning]("/Yearning")* to find it again.
+*[Yearning](/Yearning)* to find it again.
 
 I look for it in laughter,
 In the way the stars align,
@@ -44,6 +44,6 @@ And I'll know that I'm home, beyond the horizon, out there.
 
 
 So I'll keep searching, high and low,
-With an *[Ardent]("Ardent")* heart and an open mind,
+With an *[Ardent](/Ardent)* heart and an open mind,
 For the love that will continue to grow,
 And the one who'll make me whole, I'll find.
