@@ -1,5 +1,5 @@
 +++
-Title = "Luminous"
+title = "Luminous"
 +++
 
 Luminous, like a star in the sky,

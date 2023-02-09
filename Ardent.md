@@ -1,5 +1,5 @@
 +++
-Title = "Ardent"
+title = "Ardent"
 +++
 
 Ardent, like a flame that burns bright,
