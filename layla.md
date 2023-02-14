@@ -2,6 +2,7 @@
 title = "Valentine"
 +++
 
+# Layla
 In a world that's always spinning,
 Where the days just come and go,
 I'm searching for a *[Love](/love)* worth winning,
@@ -46,8 +47,11 @@ And I'll know that I'm home, beyond the horizon, out there.
 So I'll keep searching, high and low,
 With an *[Ardent](/ardent)* heart and an open mind,
 For the love that will continue to grow,
-And the one who'll make me whole, *[I'll find](https://youtu.be/A8ZZbxTxoq8)*.
+And the one who'll make me whole
 
+
+# If I Didn't Have You
+{{< youtube A8ZZbxTxoq8 >}}
 
 
 
