@@ -18,29 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "44072c84301c5f6a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "067f81ae106b3fa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tax payer game show.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "angels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "angels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "angels.md"
+              }
             }
           },
           {
@@ -181,17 +164,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "c3a1407516ecd1c7",
+  "active": "63db01b0cc57c71b",
   "lastOpenFiles": [
-    "Recording 20230228145821.webm",
+    "tax payer game show.md",
     "Kings.md",
     "minimum.md",
-    "angels.md",
-    "tax payer game show.md",
     "hollow.md",
-    "anger.md",
-    "Python-scripts-1.md",
+    "deletion.md",
+    "Recording 20230228145821.webm.md",
     "MLK.md",
-    "MythsAndCommunity.md"
+    "angels.md",
+    "Recording 20230228145821.webm",
+    "anger.md"
   ]
 }
