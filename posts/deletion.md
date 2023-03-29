@@ -1,5 +1,6 @@
 +++
 title = "War on Morality"
+image = 'moral.jpg'
 tags = ["religion", "politics","philosophy"]
 date = "2023-01-26"
 author = "Robel Schwarz"
@@ -46,7 +47,7 @@ It's worth noting that, the research on this topic is ongoing and it's difficult
 
 It's also important to note that the abortion-crime hypothesis is a controversial theory and its supporters and critics have different opinions on the relationship between abortion and crime rates.
 
-### Pro-Life 
+### Pro-Life
 
 arguments generally center around the belief that human life begins at conception and that the fetus has the same right to life as a born person. Some key pro-life arguments include:
 
@@ -74,4 +75,3 @@ I believe abortion is morally wrong, but I recognize that the societal pressure 
 
 
 ### TLDR
-I am pro-choice, but not because I believe it is morally justifiable. The use of religion and a higher power as a justification for pro-life laws is not valid in a society that separates church and state. In reality, bringing more children into a society where they are at risk of living in poverty is not morally justifiable. My hope for the future is that society will return to traditional values, reducing the need for abortions and allowing future generations to live a more respectable and traditional life.

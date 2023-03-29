@@ -3,6 +3,7 @@ title = "The Minimum Wage"
 tags = ["econ", "politics"]
 date = "2023-01-24"
 author = "Robel Schwarz"
+image="wage.png"
 +++
 ## History
 The history of the minimum wage in the United States dates back to the early 20th century. The first federal minimum wage law, the Fair Labor Standards Act (FLSA), was passed in 1938 as part of President Franklin D. Roosevelt's New Deal. The initial rate was set at 25 cents per hour and covered workers in specific industries, such as manufacturing and transportation.
@@ -20,17 +21,17 @@ Currently, the federal minimum wage is $7.25 per hour; however, several states a
 ## Why Increase the minimum
 
 1.  To combat poverty and income inequality: A higher minimum wage would increase the income of low-wage workers, helping to lift them out of poverty and reduce income inequality.
-    
+
 2.  To stimulate economic growth: When low-wage workers have more money to spend, they are more likely to finish it, which can help boost economic growth.
-    
+
 3. To reduce government dependence: Higher wages can reduce the need for government assistance programs, such as food stamps and Medicaid.
-    
+
 4.  To increase worker productivity and reduce turnover: A higher minimum wage can help attract and retain better-quality employees, leading to increased productivity and reduced turnover.
-    
+
 5.  To adjust for inflation: The minimum wage has not kept pace with inflation in recent decades, leading to a decline in its value. Increasing the minimum wage to $15 per hour would help restore its purchasing power.
-    
+
 6.  To promote social justice and fairness: A higher minimum wage would ensure that workers are paid a fair wage for their labor and would help to reduce the gender and racial wage gaps.
-    
+
 7.  To improve the overall standard of living: A higher minimum wage would increase the standard of living for low-wage workers and their families, allowing them to afford necessities such as housing, food, and healthcare.
 
 
@@ -94,10 +95,10 @@ This bill aims to increase the minimum wage in a gradual manner, taking into acc
 
 ## Personal thoughts
 
-The argument of whether the minimum wage should be increased is philosophical. The primary determinant of whether someone supports raising the minimum wage is whether someone believes that minimum wage should be __"livable."__ However, "livable" has incredible flexibility depending on where you live in the states. Because of this flexibility having a set raise to 15 an hour has the potential to hurt small businesses the most, especially in low-income areas. The individual is paid by the industry, but if the company can not afford to pay its employees, the only thing that happens is an increase in unemployment. 
+The argument of whether the minimum wage should be increased is philosophical. The primary determinant of whether someone supports raising the minimum wage is whether someone believes that minimum wage should be __"livable."__ However, "livable" has incredible flexibility depending on where you live in the states. Because of this flexibility having a set raise to 15 an hour has the potential to hurt small businesses the most, especially in low-income areas. The individual is paid by the industry, but if the company can not afford to pay its employees, the only thing that happens is an increase in unemployment.
 
 From what _I_ have seen, the largest group of individuals that support the raise to fifteen an hour are primarily people living in urban and metropolitan areas and with _low-level_ corporate franchise jobs. Raising the minimum wage would do nothing but increase the prices of all products and services across the board. The economy would simply re-adjust itself to a position where the value of the individual dollar would be _worthless_. And because of that, someone making 20$ an hour would be put in a significantly worse standing.
 
-In 90% of scenarios, how much someone makes is reflected in the time spent learning a _skill_ or craft. Minimum wage almost universally is unskilled by nature. No one should be in a minimum wage job for their life because that would, in my world view, mean that they haven't learned anything with time. And If that is indeed the case, that is reflective of a far more significant issue in the states. 
+In 90% of scenarios, how much someone makes is reflected in the time spent learning a _skill_ or craft. Minimum wage almost universally is unskilled by nature. No one should be in a minimum wage job for their life because that would, in my world view, mean that they haven't learned anything with time. And If that is indeed the case, that is reflective of a far more significant issue in the states.
 
 _Education_

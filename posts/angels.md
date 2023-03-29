@@ -1,13 +1,16 @@
 +++
 title =  "Will"
-tags = ["philosophy", "religion"]
+image = '/Angels.jpg'
 date = "2023-02-01"
+disableComments = true
 author = "Robel Schwarz"
+slug = 'lorem-ipsum'
+disqus_identifier = '1'
 +++
 
 ## Introduction
 
-For as long as I can remember, I have been fascinated with the divine and their counterparts, whether they be demons, djins, or any other spiritual manifestation of power. While admittedly, they are a figment of my obsession with power, angels also serve as a foundation for the universe in a cosmological sense to maintain _balance_. 
+For as long as I can remember, I have been fascinated with the divine and their counterparts, whether they be demons, djins, or any other spiritual manifestation of power. While admittedly, they are a figment of my obsession with power, angels also serve as a foundation for the universe in a cosmological sense to maintain _balance_.
 
 ## The Servants of Allah
 In Islam, angels are considered part of the unseen world and are believed to play a significant role in the daily life of a Muslim.
@@ -17,29 +20,29 @@ Muslims believe that angels were created by Allah (God) and are made of light. T
 Angels have several vital roles in Islam, including:
 
 - _Messengers_: from Allah and are said to convey Allah's messages to humans.
-    
+
 - _Recorders_: of a  person's thoughts, words, and actions.
-    
+
 - _Protectors_: of human beings, with each person having two angels who record their actions.
-    
+
 - _Guardians_:  of heaven and hell and to be responsible for guarding the gates of each.
-    
+
 - _Intermediaries_: between Allah and humans, carrying out his commands and responding to human needs and prayers.
-    
+
 
 Islam recognizes several specific angels, including Gabriel (Jibreel), Michael (Mika'il), and Azrael (Izra'il), who are mentioned in the Qur'an. Each angel is believed to have a unique role and responsibility in serving Allah and the world.
 
 In Islam, angels play a significant role in the daily life of a Muslim and are seen as constant reminders of the presence and power of Allah in the world. Muslims are encouraged to seek their protection and strive for their good deeds and actions to receive their blessings and guidance.
 
 It is imperative to note that within the religion of Islam, there are no...
-### Fallen Angels 
+### Fallen Angels
 
 Appear in many religious traditions to describe a celestial being who has been cast out of heaven or rebelled against God or the divine realm. The concept of fallen angels is most commonly associated with Christianity and Judaism, but it is also present in other religious traditions, such as Zoroastrianism. It is important to note that there does not exist any fallen angels in Islam.
 ### -
 
 ## Disobedience to God
 #### Spirits In the Sands
-Contrary to what I just said, a few examples of _falling from grace_ in Islamic Tradition serve as extreme outliers. The Jedo-Christan satanic equivalent in Islam is known as Iblis. 
+Contrary to what I just said, a few examples of _falling from grace_ in Islamic Tradition serve as extreme outliers. The Jedo-Christan satanic equivalent in Islam is known as Iblis.
 
 According to Islamic tradition, Iblis was a jinn created by Allah and was one of the most elevated and respected Jinn. However, when Allah commanded all of his creations to bow down to Adam, Iblis refused, stating that he was made of fire and was, therefore, superior to Adam, who was made of clay.
 
@@ -70,18 +73,18 @@ This misconception about Lucifer is rather frustrating as it is a core aspect of
 
 #### The Poison of God
 
-Samael  is a name that is associated with various religious traditions, including Judaism, Christianity, and Gnosticism. My *favorite* interpretation of Samael is within the Talmudic and post-Talmudic literature. Samael holds the title of the left hand of God and his name directly translates to the venom of God.  In Jewish tradition, Samael is sometimes portrayed as an angel or demon who is associated with death and destruction. In some texts, Samael is depicted as the accuser of God's people and as the leader of the evil spirits a synonym for Satan. 
+Samael  is a name that is associated with various religious traditions, including Judaism, Christianity, and Gnosticism. My *favorite* interpretation of Samael is within the Talmudic and post-Talmudic literature. Samael holds the title of the left hand of God and his name directly translates to the venom of God.  In Jewish tradition, Samael is sometimes portrayed as an angel or demon who is associated with death and destruction. In some texts, Samael is depicted as the accuser of God's people and as the leader of the evil spirits a synonym for Satan.
 
 Most importantly, however, Samael is directly responsible for the fall of Adam as Samael was the one who seduced Eve in the garden of Eden. From his Affiar with Eve, a child was born. Humanities first murderer and the man cursed to eternally walk barren lands, Cain.
 
-In many tellings of creation, Samael is said to be the *lover* of Lilith, Adam's first wife, with their union being the dark mirror of Adam and Eve. From their union, they birth the demons, demons that would then be used by Lilith in a revolt against God. As a result, God castrated Samael and was said to banish him from Heaven and sentence the fallen angel to serve as the *guardian* of Esau. 
+In many tellings of creation, Samael is said to be the *lover* of Lilith, Adam's first wife, with their union being the dark mirror of Adam and Eve. From their union, they birth the demons, demons that would then be used by Lilith in a revolt against God. As a result, God castrated Samael and was said to banish him from Heaven and sentence the fallen angel to serve as the *guardian* of Esau.
 
 The last notable encounter with the Dark angel appears in the...
 ##### [Ascension of Moses](https://www.originalsources.com/Document.aspx?DocID=8JVRAVUWX4DS9GD)
 """
 	In the last heaven Moses saw two angels, each five hundred parasangs in height, forged out of chains of black fire and red fire, the angels Af, "Anger," and Hemah, "Wrath," whom God created at the beginning of the world, to execute His will. Moses was disquieted when he looked upon them, but Metatron embraced him, and said, "Moses, Moses, thou favorite of God, fear not, and be not terrified," and Moses became calm. There was another angel in the seventh heaven, different in appearance from all the others, and of frightful mien. His height was so great, it would have taken five hundred years to cover a distance equal to it, and from the crown of his head to the soles of his feet he was studded with glaring eyes, at the sight of which the beholder fell prostrate in awe. "This one," said Metatron, addressing Moses, "is Samael, who takes the soul away from man." "Whither goes he now?" asked Moses, and Metatron replied, "To fetch the soul of Job the pious." Thereupon Moses prayed to God in these words, "O may it be Thy will, my God and the God of my fathers, not to let me fall into the hands of this angel."
 """
-##### - 
+##### -
 
 The Two other faiths where Samael makes an appearance are Gnosticism and Kabbalah.
 In Gnosticism, Samael is often portrayed as a powerful and malevolent deity who is opposed to the true God and is responsible for the creation of the material world. Some Gnostic sects saw Samael as the demiurge, the architect of the physical universe who was responsible for the suffering and imperfections of the world. Throughout the Kabbalah, Samael is seen as one of the Sephirot, the ten attributes of God. In this tradition, Samael is associated with the sefirah of Gevurah, which represents strength, power, and judgment.
@@ -112,7 +115,7 @@ In Hinduism, devas are celestial beings or gods that are responsible for various
 
 In Buddhism, devas are also seen as divine beings that inhabit higher realms and possess supernatural abilities. However, unlike Hinduism, Buddhism does not worship them as gods but rather sees them as beings that have achieved a higher level of spiritual enlightenment. According to Buddhist teachings, devas have the ability to assist and guide human beings toward enlightenment, but they are still considered to be bound by the cycle of birth and death, just like all other beings. Ultimately, the goal of a Buddhist is to achieve enlightenment and become a deva. Overall, the concept of celestial beings in Buddhism and Hinduism is different from that in Western religions, as the focus in those beliefs is on individual spiritual development and the attainment of enlightenment rather than a belief in a hierarchy of divine beings.
 
-Because of the overall cosmological structure of Hinduism, Buddhism, and other closely related eastern faiths, their celestials do not appear to have any "fallen" ones. Those who would be classified as evil are almost preordained as such. 
+Because of the overall cosmological structure of Hinduism, Buddhism, and other closely related eastern faiths, their celestials do not appear to have any "fallen" ones. Those who would be classified as evil are almost preordained as such.
 
 ## The Will of Man
 
@@ -124,7 +127,7 @@ For example, in Christianity, God is seen as having created humanity in His own 
 
 Aside from the monotheism doctrines, in Hinduism, the creation of humanity is seen as part of the cycle of creation and destruction, with humans serving as the means by which the divine can experience and understand the world.
 
-God's greatest gift, in many instances, is that of free will, free will to create, free will to love, but more evidently, free will to destroy. In the celestial realm of Angels, God's existence is guaranteed; it is present and known. 
+God's greatest gift, in many instances, is that of free will, free will to create, free will to love, but more evidently, free will to destroy. In the celestial realm of Angels, God's existence is guaranteed; it is present and known.
 
 Reflect on the countless interpretations of the concept of God that have emerged throughout history. Consider the numerous individuals who, convinced of their beliefs, have made the ultimate sacrifice in the name of what they perceived to be just. Ponder the countless innocent lives that were cut short due to the actions of these crusaders.
 
@@ -137,9 +140,3 @@ Despite the existence of suffering and uncertainty that humanity is faced with, 
 The only certainty is that humanity possesses free will. Live in uncertainty, connect with those around you, and embrace their unique perspectives. We live mortal lives; each decision we make from sunrise to sunset is how we will be remembered when we pass on. I argue you live each moment as if it were your last. Do not let differences in beliefs or ideologies prevent you from seeing the humanity in others.
 
 As humans, we are free to suffer in our own ways, and because of that, relief is all the more joyous. In a way, we are more blessed than the celestials. Man is born with a clean slate; ultimately, free will does not mean being free of consequence.  Stay true to yourself and your convictions, and may an angel of God guide you to your paradise.
-
-
-
-
-
-

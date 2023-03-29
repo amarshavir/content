@@ -2,6 +2,7 @@
 title = "MLK"
 tags = ["philosophy"]
 date = "2022-09-21"
+image = "mlk.png"
 author = "Robel Schwarz"
 +++
 
