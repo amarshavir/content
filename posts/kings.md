@@ -2,7 +2,7 @@
 title =  "Kings"
 tags = ["philosophy"]
 date = "2023-02-26"
-author = "Robel Schwarz"
+author = "Amar Shavir"
 image = "/kings.webp"
 +++
 
@@ -93,7 +93,7 @@ The Royal Uk writes this about Charles...
 
 (It turns out Grammarly is no a fan of British English)
 
-Charles, the first, is a character I do not believe to be an outlier in the history of kings. In fact, I believe His rise and fall are far more representative of the history of kings than figures like King Cyrus or Alexander. That is to say, being placed on a high pedestal in society creates a level of exposure for one individual that a person is not naturally equipped to handle. Charles, the first, only cared about the purpose and his own interest, and because of the level of power that a king has, he could do what he wanted without any negative consequences. He failed to calculate the effects of his actions or how the public would view him, and due to that failure lost his life
+Charles, the first, is a character I do not believe to be an outlier in the history of kings. In fact, I believe His rise and fall are far more representative of the history of kings than figures like King Cyrus or Alexander. That is to say, being placed on a high pedestal in society creates a level of exposure for one individual that a person is not naturally equipped to handle. Charles, the first, only cared about the purpose and his own interest, and because of the level of power that a king has, he could do what he wanted without any resistence. He failed to calculate the effects of his actions or how the public would view him, and due to that failure lost his life
 
 
 # Be wary of those who aspire to be "king."

@@ -3,7 +3,7 @@ title =  "Will"
 image = '/Angels.jpg'
 date = "2023-02-01"
 disableComments = true
-author = "Robel Schwarz"
+author = "Amar Shavir"
 slug = 'lorem-ipsum'
 disqus_identifier = '1'
 +++

@@ -2,7 +2,7 @@
 title =  "Irrationally angry"
 tags = ["philosophy"]
 date = "2023-01-10"
-author = "Robel Schwarz"
+author = "Amar Shavir"
 +++
 
 ## Introduction
