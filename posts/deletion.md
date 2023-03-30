@@ -72,4 +72,3 @@ Many progressive movements in America have used the principles outlined in the D
 I believe abortion is morally wrong, but I recognize that the societal pressure towards hypersexuality and the resulting unintended pregnancies present a complex issue. With a high number of children already in foster care and adoption centers, the question arises as to whether it is morally justifiable to bring more children into a society where they may be at risk of living in poverty.
 
 
-### TLDR
