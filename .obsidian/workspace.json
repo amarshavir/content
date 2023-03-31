@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/kings.md",
+                "file": "posts/mlk.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/kings.md",
+                "file": "posts/mlk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/kings.md",
+                "file": "posts/mlk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/kings.md"
+                "file": "posts/mlk.md"
               }
             }
           }
@@ -145,17 +145,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5b0e30f8a7e8afd",
+  "active": "8f8da74224d83e84",
   "lastOpenFiles": [
+    "posts/mlk.sync-conflict-20230331-104703-N2Y6TQR.md",
+    "posts/mlk.sync-conflict-20230331-104940-N2Y6TQR.md",
+    "posts/mlk.sync-conflict-20230331-104952-N2Y6TQR.md",
+    "posts/mlk.sync-conflict-20230331-104723-N2Y6TQR.md",
+    "posts/mlk.sync-conflict-20230331-104613-N2Y6TQR.md",
+    "posts/kings.md",
     "posts/mlk.md",
     "posts/minimum.md",
-    "posts/kings.md",
     "posts/mlk.sync-conflict-20230331-104533-N2Y6TQR.md",
-    "posts/mlk.sync-conflict-20230331-104952-N2Y6TQR.md",
-    "posts/mlk.sync-conflict-20230331-104940-N2Y6TQR.md",
-    "posts/mlk.sync-conflict-20230331-104723-N2Y6TQR.md",
-    "posts/mlk.sync-conflict-20230331-104703-N2Y6TQR.md",
-    "posts/mlk.sync-conflict-20230331-104613-N2Y6TQR.md",
     "posts/deletion.md",
     "posts/angels.md"
   ]
