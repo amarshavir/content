@@ -1,9 +1,9 @@
 +++
-title = "MLK"
+title = "slaves"
 tags = ["religion", "politics","philosophy"]
 date = "2023-01-24"
 author = "Amar Shavir"
-image="/mlk.png"
+image="/slaves.png"
 +++
 ## Intro
 
