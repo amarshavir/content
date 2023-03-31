@@ -3,7 +3,7 @@ title =  "Kings"
 tags = ["philosophy"]
 date = "2023-02-26"
 author = "Amar Shavir"
-image = "/kings.webp"
+image = "/kings.png"
 +++
 
 # What is the role of a king?

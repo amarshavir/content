@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/mlk.md",
+                "file": "posts/kings.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/mlk.md",
+                "file": "posts/kings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/mlk.md",
+                "file": "posts/kings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/mlk.md"
+                "file": "posts/kings.md"
               }
             }
           }
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,16 +145,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f8da74224d83e84",
+  "active": "b5b0e30f8a7e8afd",
   "lastOpenFiles": [
+    "posts/mlk.md",
+    "posts/minimum.md",
+    "posts/kings.md",
+    "posts/mlk.sync-conflict-20230331-104533-N2Y6TQR.md",
+    "posts/mlk.sync-conflict-20230331-104952-N2Y6TQR.md",
+    "posts/mlk.sync-conflict-20230331-104940-N2Y6TQR.md",
     "posts/mlk.sync-conflict-20230331-104723-N2Y6TQR.md",
     "posts/mlk.sync-conflict-20230331-104703-N2Y6TQR.md",
     "posts/mlk.sync-conflict-20230331-104613-N2Y6TQR.md",
-    "posts/mlk.sync-conflict-20230331-104533-N2Y6TQR.md",
-    "posts/minimum.md",
-    "posts/mlk.md",
     "posts/deletion.md",
-    "posts/kings.md",
     "posts/angels.md"
   ]
 }
