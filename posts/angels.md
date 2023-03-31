@@ -1,5 +1,6 @@
 +++
 title =  "Will"
+tags = ["philosophy","religion"]
 image = '/Angels.jpg'
 date = "2023-02-01"
 disableComments = true
