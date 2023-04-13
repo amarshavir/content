@@ -1,0 +1,1618 @@
+<!doctype html>
+<html>
+    <head>
+        <title>kings</title>
+        <meta charset='utf-8'/>
+        <style>
+ .ͼ1.cm-focused {outline: 1px dotted #212121;}
+.ͼ1 {position: relative !important; box-sizing: border-box; display: flex !important; flex-direction: column;}
+.ͼ1 .cm-scroller {display: flex !important; align-items: flex-start !important; font-family: monospace; line-height: 1.4; height: 100%; overflow-x: auto; position: relative; z-index: 0;}
+.ͼ1 .cm-content[contenteditable=true] {-webkit-user-modify: read-write-plaintext-only;}
+.ͼ1 .cm-content {margin: 0; flex-grow: 2; flex-shrink: 0; display: block; white-space: pre; word-wrap: normal; box-sizing: border-box; padding: 4px 0; outline: none;}
+.ͼ1 .cm-lineWrapping {white-space: pre-wrap; white-space: break-spaces; word-break: break-word; overflow-wrap: anywhere; flex-shrink: 1;}
+.ͼ2 .cm-content {caret-color: black;}
+.ͼ3 .cm-content {caret-color: white;}
+.ͼ1 .cm-line {display: block; padding: 0 2px 0 6px;}
+.ͼ1 .cm-layer > * {position: absolute;}
+.ͼ1 .cm-layer {position: absolute; left: 0; top: 0; contain: size style;}
+.ͼ2 .cm-selectionBackground {background: #d9d9d9;}
+.ͼ3 .cm-selectionBackground {background: #222;}
+.ͼ2.cm-focused .cm-selectionBackground {background: #d7d4f0;}
+.ͼ3.cm-focused .cm-selectionBackground {background: #233;}
+.ͼ1 .cm-cursorLayer {pointer-events: none;}
+.ͼ1.cm-focused .cm-cursorLayer {animation: steps(1) cm-blink 1.2s infinite;}
+@keyframes cm-blink {50% {opacity: 0;}}
+@keyframes cm-blink2 {50% {opacity: 0;}}
+.ͼ1 .cm-cursor, .ͼ1 .cm-dropCursor {border-left: 1.2px solid black; margin-left: -0.6px; pointer-events: none;}
+.ͼ1 .cm-cursor {display: none;}
+.ͼ3 .cm-cursor {border-left-color: #444;}
+.ͼ1 .cm-dropCursor {position: absolute;}
+.ͼ1.cm-focused .cm-cursor {display: block;}
+.ͼ2 .cm-activeLine {background-color: #cceeff44;}
+.ͼ3 .cm-activeLine {background-color: #99eeff33;}
+.ͼ2 .cm-specialChar {color: red;}
+.ͼ3 .cm-specialChar {color: #f78;}
+.ͼ1 .cm-gutters {flex-shrink: 0; display: flex; height: 100%; box-sizing: border-box; left: 0; z-index: 200;}
+.ͼ2 .cm-gutters {background-color: #f5f5f5; color: #6c6c6c; border-right: 1px solid #ddd;}
+.ͼ3 .cm-gutters {background-color: #333338; color: #ccc;}
+.ͼ1 .cm-gutter {display: flex !important; flex-direction: column; flex-shrink: 0; box-sizing: border-box; min-height: 100%; overflow: hidden;}
+.ͼ1 .cm-gutterElement {box-sizing: border-box;}
+.ͼ1 .cm-lineNumbers .cm-gutterElement {padding: 0 3px 0 5px; min-width: 20px; text-align: right; white-space: nowrap;}
+.ͼ2 .cm-activeLineGutter {background-color: #e2f2ff;}
+.ͼ3 .cm-activeLineGutter {background-color: #222227;}
+.ͼ1 .cm-panels {box-sizing: border-box; position: sticky; left: 0; right: 0;}
+.ͼ2 .cm-panels {background-color: #f5f5f5; color: black;}
+.ͼ2 .cm-panels-top {border-bottom: 1px solid #ddd;}
+.ͼ2 .cm-panels-bottom {border-top: 1px solid #ddd;}
+.ͼ3 .cm-panels {background-color: #333338; color: white;}
+.ͼ1 .cm-tab {display: inline-block; overflow: hidden; vertical-align: bottom;}
+.ͼ1 .cm-widgetBuffer {vertical-align: text-top; height: 1em; width: 0; display: inline;}
+.ͼ1 .cm-placeholder {color: #888; display: inline-block; vertical-align: top;}
+.ͼ1 .cm-highlightSpace:before {content: attr(data-display); position: absolute; pointer-events: none; color: #888;}
+.ͼ1 .cm-highlightTab {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="20"><path stroke="%23888" stroke-width="1" fill="none" d="M1 10H196L190 5M190 15L196 10M197 4L197 16"/></svg>'); background-size: auto 100%; background-position: right 90%; background-repeat: no-repeat;}
+.ͼ1 .cm-trailingSpace {background-color: #ff332255;}
+.ͼ1 .cm-button {vertical-align: middle; color: inherit; font-size: 70%; padding: .2em 1em; border-radius: 1px;}
+.ͼ2 .cm-button:active {background-image: linear-gradient(#b4b4b4, #d0d3d6);}
+.ͼ2 .cm-button {background-image: linear-gradient(#eff1f5, #d9d9df); border: 1px solid #888;}
+.ͼ3 .cm-button:active {background-image: linear-gradient(#111, #333);}
+.ͼ3 .cm-button {background-image: linear-gradient(#393939, #111); border: 1px solid #888;}
+.ͼ1 .cm-textfield {vertical-align: middle; color: inherit; font-size: 70%; border: 1px solid silver; padding: .2em .5em;}
+.ͼ2 .cm-textfield {background-color: white;}
+.ͼ3 .cm-textfield {border: 1px solid #555; background-color: inherit;}
+.ͼ1 .cm-tooltip {z-index: 100; box-sizing: border-box;}
+.ͼ2 .cm-tooltip {border: 1px solid #bbb; background-color: #f5f5f5;}
+.ͼ2 .cm-tooltip-section:not(:first-child) {border-top: 1px solid #bbb;}
+.ͼ3 .cm-tooltip {background-color: #333338; color: white;}
+.ͼ1 .cm-tooltip-arrow:before, .ͼ1 .cm-tooltip-arrow:after {content: ''; position: absolute; width: 0; height: 0; border-left: 7px solid transparent; border-right: 7px solid transparent;}
+.ͼ1 .cm-tooltip-above .cm-tooltip-arrow:before {border-top: 7px solid #bbb;}
+.ͼ1 .cm-tooltip-above .cm-tooltip-arrow:after {border-top: 7px solid #f5f5f5; bottom: 1px;}
+.ͼ1 .cm-tooltip-above .cm-tooltip-arrow {bottom: -7px;}
+.ͼ1 .cm-tooltip-below .cm-tooltip-arrow:before {border-bottom: 7px solid #bbb;}
+.ͼ1 .cm-tooltip-below .cm-tooltip-arrow:after {border-bottom: 7px solid #f5f5f5; top: 1px;}
+.ͼ1 .cm-tooltip-below .cm-tooltip-arrow {top: -7px;}
+.ͼ1 .cm-tooltip-arrow {height: 7px; width: 14px; position: absolute; z-index: -1; overflow: hidden;}
+.ͼ3 .cm-tooltip .cm-tooltip-arrow:before {border-top-color: #333338; border-bottom-color: #333338;}
+.ͼ3 .cm-tooltip .cm-tooltip-arrow:after {border-top-color: transparent; border-bottom-color: transparent;}
+.ͼ1 .cm-foldPlaceholder {background-color: #eee; border: 1px solid #ddd; color: #888; border-radius: .2em; margin: 0 1px; padding: 0 1px; cursor: pointer;}
+.ͼ1 .cm-foldGutter span {padding: 0 1px; cursor: pointer;}
+.ͼq .cm-content {white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere; padding: 0;}
+.ͼp .cm-vimMode .cm-cursorLayer:not(.cm-vimCursorLayer) {display: none;}
+.ͼp .cm-vim-panel {padding: 0px 10px; font-family: monospace; min-height: 1.3em;}
+.ͼp .cm-vim-panel input {border: none; outline: none;}
+.ͼo .cm-vimMode .cm-line {caret-color: transparent !important;}
+.ͼo .cm-fat-cursor {position: absolute; border: none; white-space: pre;}
+.ͼo.cm-focused .cm-fat-cursor {background: var(--interactive-accent); color: var(--text-on-accent);}
+.ͼo:not(.cm-focused) .cm-fat-cursor {outline: solid 1px #ff9696; color: transparent;}
+ .lt-underline {
+  cursor: pointer;
+  transition: background-color 100ms ease-out;
+}
+
+.lt-underline.lt-minor {
+  box-shadow: inset 0 -2px #e9b35f;
+}
+
+.lt-underline.lt-major {
+  box-shadow: inset 0 -2px #da615c;
+}
+
+.lt-underline.lt-style {
+  box-shadow: inset 0 -2px #8981f3;
+}
+
+.lt-underline.lt-minor:hover {
+  background-color: #e9b35f21;
+}
+
+.lt-underline.lt-major:hover {
+  background-color: #da615c21;
+}
+
+.lt-underline.lt-style:hover {
+  background-color: #8981f321;
+}
+
+@keyframes lineInserted {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.lt-predictions-container-glass.cm-tooltip,
+.lt-predictions-container.cm-tooltip,
+.lt-predictions-container-glass,
+.lt-predictions-container {
+  position: absolute;
+  animation-duration: 150ms;
+  animation-name: lineInserted;
+  font-family: var(--default-font);
+  font-size: 0.93rem;
+  padding: 12px 0 0;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: 300px;
+  line-height: 1.5;
+  z-index: var(--layer-popover);
+  overflow: hidden;
+}
+
+.lt-predictions-container-glass {
+  background: hsla(0, 0%, 100%, 0.25);
+  backdrop-filter: blur(12px);
+}
+
+.lt-predictions-container > button {
+  transition-delay: 0.5s;
+}
+
+.lt-buttoncontainer:not(:empty) {
+  padding: 10px 12px 0;
+}
+
+.lt-buttoncontainer > button {
+  border: 1px solid var(--background-modifier-border);
+  font-size: 1rem;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 4px 10px;
+}
+
+.lt-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  padding: 0 12px;
+}
+
+.lt-message {
+  padding: 0 12px;
+  display: block;
+}
+
+.lt-ignorecontainer {
+  padding-top: 10px;
+  display: flex;
+}
+
+.lt-status-bar-btn {
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  line-height: 1;
+  align-items: center;
+}
+
+.lt-status-bar-check-icon {
+  display: block;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.lt-ignore-btn {
+  margin: 0;
+  padding: 12px;
+  display: flex;
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  align-items: center;
+  line-height: 1;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.lt-ignore-btn > span {
+  display: flex;
+}
+
+.lt-ignore-btn > span:last-child {
+  margin-left: 5px;
+}
+
+.lt-minor .lt-title > span {
+  box-shadow: inset 0 -2px #e9b35f88;
+}
+
+.lt-major .lt-title > span {
+  box-shadow: inset 0 -2px #da615c88;
+}
+
+.lt-style .lt-title > span {
+  box-shadow: inset 0 -2px #8981f388;
+}
+
+.lt-loading > svg {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+ @keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.workspace-leaf-content[data-type='git-view'] .view-content {
+    padding: 0;
+}
+
+.workspace-leaf-content[data-type='git-history-view'] .view-content {
+    padding: 0;
+}
+
+.loading>svg {
+    animation: 2s linear infinite loading;
+    transform-origin: 50% 50%;
+    display: inline-block;
+}
+
+.obsidian-git-center {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.obsidian-git-textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obsidian-git-center-button {
+    display: block;
+    margin: 20px auto;
+}
+
+.tooltip.mod-left {
+    overflow-wrap: break-word;
+}
+
+.tooltip.mod-right {
+    overflow-wrap: break-word;
+}
+.git-tools {
+    display: flex;
+    margin-left: auto;
+}
+.git-tools .type {
+    padding-left: var(--size-2-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.git-tools .type[data-type="M"] {
+    color: orange;
+}
+.git-tools .type[data-type="D"] {
+    color: red;
+}
+.git-tools .buttons {
+    display: flex;
+}
+.git-tools .buttons > * {
+    padding: 0 0;
+    height: auto;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-d-none {
+    display: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-wrapper {
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-header {
+    background-color: var(--background-primary);
+    border-bottom: 1px solid var(--interactive-accent);
+    font-family: var(--font-monospace);
+    height: 35px;
+    padding: 5px 10px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-header,
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-stats {
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-lines-added {
+    border: 1px solid #b4e2b4;
+    border-radius: 5px 0 0 5px;
+    color: #399839;
+    padding: 2px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-lines-deleted {
+    border: 1px solid #e9aeae;
+    border-radius: 0 5px 5px 0;
+    color: #c33;
+    margin-left: 1px;
+    padding: 2px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-name-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-name {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-wrapper {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 3px;
+    margin-bottom: 1em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-collapse {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    justify-content: flex-end;
+    padding: 4px 8px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-collapse.d2h-selected {
+    background-color: #c8e1ff;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-collapse-input {
+    margin: 0 4px 0 0;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-diff-table {
+    border-collapse: collapse;
+    font-family: Menlo, Consolas, monospace;
+    font-size: 13px;
+    width: 100%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-files-diff {
+    width: 100%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-diff {
+    overflow-y: hidden;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-side-diff {
+    display: inline-block;
+    margin-bottom: -8px;
+    margin-right: -4px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 50%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line {
+    padding: 0 8em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line {
+    padding: 0 4.5em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line-ctn {
+    word-wrap: normal;
+    background: none;
+    display: inline-block;
+    padding: 0;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    vertical-align: middle;
+    white-space: pre;
+    width: 100%;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-code-line del,
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line del {
+    background-color: #ffb6ba;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-code-line del,
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line del {
+    background-color: #8d232881;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line del,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line ins,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line del,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line ins {
+    border-radius: 0.2em;
+    display: inline-block;
+    margin-top: -1px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-code-line ins,
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line ins {
+    background-color: #97f295;
+    text-align: left;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-code-line ins,
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line ins {
+    background-color: #1d921996;
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line-prefix {
+    word-wrap: normal;
+    background: none;
+    display: inline;
+    padding: 0;
+    white-space: pre;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num1 {
+    float: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num1,
+.workspace-leaf-content[data-type="diff-view"] .line-num2 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 0.5em;
+    text-overflow: ellipsis;
+    width: 3.5em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num2 {
+    float: right;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-linenumber {
+    background-color: var(--background-primary);
+    border: solid var(--background-modifier-border);
+    border-width: 0 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    width: 7.5em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-linenumber:after {
+    content: "\200b";
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-linenumber {
+    background-color: var(--background-primary);
+    border: solid var(--background-modifier-border);
+    border-width: 0 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0.5em;
+    position: absolute;
+    text-align: right;
+    text-overflow: ellipsis;
+    width: 4em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-diff-tbody tr {
+    position: relative;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-linenumber:after {
+    content: "\200b";
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-emptyplaceholder,
+.workspace-leaf-content[data-type="diff-view"] .d2h-emptyplaceholder {
+    background-color: var(--background-primary);
+    border-color: var(--background-modifier-border);
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line-prefix,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .d2h-emptyplaceholder {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-linenumber {
+    direction: rtl;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-del {
+    background-color: #fee8e9;
+    border-color: #e9aeae;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-ins {
+    background-color: #dfd;
+    border-color: #b4e2b4;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-del {
+    background-color: #521b1d83;
+    border-color: #691d1d73;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-ins {
+    background-color: rgba(30, 71, 30, 0.5);
+    border-color: #13501381;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-info {
+    background-color: var(--background-primary);
+    border-color: var(--background-modifier-border);
+    color: var(--text-normal);
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-file-diff .d2h-del.d2h-change {
+    background-color: #fdf2d0;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-file-diff .d2h-del.d2h-change {
+    background-color: #55492480;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-file-diff .d2h-ins.d2h-change {
+    background-color: #ded;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-file-diff .d2h-ins.d2h-change {
+    background-color: rgba(37, 78, 37, 0.418);
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-wrapper {
+    margin-bottom: 10px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-wrapper a {
+    color: #3572b0;
+    text-decoration: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-wrapper a:visited {
+    color: #3572b0;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-header {
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-title {
+    font-weight: 700;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list>li {
+    border-bottom: 1px solid var(--background-modifier-border);
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list>li:last-child {
+    border-bottom: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-switch {
+    cursor: pointer;
+    display: none;
+    font-size: 10px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-icon {
+    fill: currentColor;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-deleted {
+    color: #c33;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-added {
+    color: #399839;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-changed {
+    color: #d0b44c;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-moved {
+    color: #3572b0;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-tag {
+    background-color: var(--background-primary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 10px;
+    margin-left: 5px;
+    padding: 0 2px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-deleted-tag {
+    border: 2px solid #c33;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-added-tag {
+    border: 1px solid #399839;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-changed-tag {
+    border: 1px solid #d0b44c;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-moved-tag {
+    border: 1px solid #3572b0;
+} body.plugin-cm-typewriter-scroll-zen .CodeMirror-lines:not(.selecting) .CodeMirror-code > :not(.CodeMirror-activeline) {
+  opacity: var(--zen-opacity);
+}
+body.plugin-cm-typewriter-scroll-zen .cm-editor.cm-focused .cm-line:not(.cm-active) {
+  opacity: var(--zen-opacity);
+} /* Any line that isn't focused on, reduce opacity */
+body.StilleStyle .cm-editor.cm-focused .cm-line:not(.cm-active) {
+	opacity: var(--unfocusedLevel);
+}
+
+/* If the editor does not have focus, then reduce opacity of contents of editor */
+body.StilleStyle .cm-editor:not(.cm-focused) .cm-line {
+	opacity: var(--unfocusedLevel);
+}
+
+body.StilleStyle .cm-editor .internal-embed,
+body.StilleStyle .cm-editor .cm-embed-block {
+	opacity: var(--unfocusedLevel);
+}
+
+body.StilleStyle .cm-editor .cm-active {
+	opacity: 1;
+}
+
+body.StilleStyle.is-mobile .cm-editor .cm-active {
+	opacity: 1;
+}
+
+body.StilleUnfocusTitle .view-header-title {
+	opacity: var(--unfocusedLevel);
+}
+
+body.StilleUnfocusTitle .view-header-title:focus-within {
+	opacity: 1;
+}
+
+/* Below are v1.0 specific fixes */
+
+body.StilleUnfocusTitle .inline-title {
+	opacity: var(--unfocusedLevel);
+}
+
+body.StilleUnfocusTitle .inline-title:focus-within {
+	opacity: 1;
+}
+ #perilous-writing-progress-bar-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: hsl(0deg 0% 95%);
+}
+
+#perilous-writing-progress-bar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+}
+
+#perilous-writing-progress-bar-bar {
+  background-color: var(--color-purple);
+  height: 100%;
+  width: 100%;
+  transition: background-color 100ms ease-in;
+} /*----------------------------------------------------------------
+CMENU TOOLBAR
+----------------------------------------------------------------*/
+
+#cMenuModalBar {
+  width: auto;
+  height: auto;
+  padding: 3px;
+  display: grid;
+  user-select: none;
+  border-radius: 6px;
+  position: absolute;
+  transition: 200ms ease;
+  min-width: fit-content;
+  justify-content: space-around;
+  z-index: var(--layer-status-bar);
+  box-shadow: 0px 3px 32px rgb(31 38 135 / 15%);
+  border: 1px solid var(--background-modifier-border);
+}
+
+#cMenuModalBar .cMenuCommandItem {
+  margin: 2px;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  padding: 5px 6px;
+  box-shadow: none;
+  margin-left: 3px;
+  margin-right: 3px;
+  position: relative;
+  border-radius: 3px;
+  font-size: initial !important;
+  background-color: var(--background-primary-alt);
+}
+
+#cMenuModalBar button.cMenuCommandItem:hover {
+  background-color: var(--background-secondary);
+}
+
+#cMenuModalBar button.cMenuCommandItem svg {
+  width: 1.3em;
+  height: 1.3em;
+}
+
+/*----------------------------------------------------------------
+CMENU SETTINGS BUTTONS
+----------------------------------------------------------------*/
+
+.modal.mod-settings
+  button:not(.mod-cta):not(.mod-warning).cMenuSettingsButton.cMenuSettingsButtonAdd,
+button:not(.mod-cta):not(.mod-warning).cMenuSettingsButton.cMenuSettingsButtonAdd {
+  background-color: var(--interactive-accent);
+}
+
+.modal.mod-settings
+  button:not(.mod-cta):not(.mod-warning).cMenuSettingsButton.cMenuSettingsButtonDelete,
+button:not(.mod-cta):not(.mod-warning).cMenuSettingsButton.cMenuSettingsButtonDelete {
+  background-color: #989cab;
+}
+
+.modal.mod-settings
+  button:not(.mod-cta):not(.mod-warning).cMenuSettingsButton.cMenuSettingsButtonRefresh,
+button:not(.mod-cta):not(.mod-warning).cMenuSettingsButton.cMenuSettingsButtonRefresh {
+  background-color: var(--text-accent);
+}
+
+button.cMenuSettingsButton {
+  padding: 4px 14px;
+  border-radius: 6px;
+}
+
+.cMenuSettingsButton svg {
+  width: 1.3em;
+  height: 1.3em;
+  display: flex;
+}
+
+/*----------------------------------------------------------------
+CMENU SETTING ITEMS
+----------------------------------------------------------------*/
+.setting-item.cMenuCommandItem:first-child {
+  padding-top: 18px;
+}
+
+.cMenuCommandItem {
+  cursor: grab;
+  padding: 18px 0 18px 0;
+}
+
+.sortable-fallback {
+  cursor: grabbing;
+  box-shadow: 0px 3px 32px rgb(31 38 135 / 15%);
+}
+
+.sortable-grab {
+  cursor: grabbing !important;
+}
+
+.sortable-ghost {
+  opacity: 0.4;
+  cursor: grabbing;
+}
+
+.sortable-chosen {
+  cursor: grabbing;
+  padding: 18px 0 18px 18px;
+  background-color: var(--background-primary);
+}
+
+.sortable-drag {
+  cursor: grabbing;
+  box-shadow: 0px 3px 32px rgb(31 38 135 / 15%);
+}
+
+.cMenuSettingsTabsContainer {
+  border-top: 1px solid var(--background-modifier-border);
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/*----------------------------------------------------------------
+CMENU CLASS CHANGES
+----------------------------------------------------------------*/
+
+.cMenuGlassAesthetic {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.cMenuDefaultAesthetic {
+  background-color: var(--background-primary);
+}
+
+/*----------------------------------------------------------------
+CMENU ICONS
+----------------------------------------------------------------*/
+
+.cMenuIconPick {
+  line-height: normal;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.cMenuIconPick svg {
+  width: 17px;
+  height: 17px;
+}
+
+/*----------------------------------------------------------------
+CMENU STATUS BAR MENU
+----------------------------------------------------------------*/
+
+.cMenu-statusbar-menu {
+  width: 200px;
+}
+
+.cMenu-statusbar-menu .menu-item-icon {
+  display: none;
+}
+
+.cMenu-statusbar-menu .menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cMenu-statusbar-menu .menu-item.settings-item {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1;
+  border-radius: 5px;
+  height: auto;
+  padding: 8px 5px 0px 5px;
+  margin: 0 auto;
+  width: fit-content;
+  color: var(--text-faint);
+}
+
+.cMenu-statusbar-menu .menu-item.settings-item .menu-item-title {
+  text-align: center;
+}
+
+.cMenu-statusbar-menu .menu-item:hover,
+.cMenu-statusbar-menu .menu-item .selected:hover,
+.cMenu-statusbar-menu .menu-item.selected:not(.is-disabled):not(.is-label) {
+  background-color: transparent;
+}
+
+.cMenu-statusbar-menu .menu-item-title {
+  margin-right: 10px;
+}
+
+.cMenu-statusbar-menu .slider {
+  width: 100%;
+}
+
+.cMenu-statusbar-menu .menu-item.buttonitem {
+  padding-top: 10px;
+  padding-bottom: 4px;
+  height: fit-content;
+}
+
+.cMenu-statusbar-menu .menu-item.buttonitem button.cMenuSettingsButton {
+  margin: 0;
+}
+
+/*----------------------------------------------------------------
+CMENU STATUS BAR BUTTONS
+----------------------------------------------------------------*/
+
+.cMenu-statusbar-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.cMenu-statusbar-button svg {
+  display: flex;
+  width: 1.3em;
+  height: 1.3em;
+}
+
+/*----------------------------------------------------------------
+CMENU SUPPORT
+----------------------------------------------------------------*/
+
+.cDonationSection {
+  width: 60%;
+  height: 50vh;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-normal);
+}
+ 
+.pandoc-plugin-error {
+    color: red;
+}
+ 
+:root
+{
+    --dark0-hard_x:     29,32,33; /* #1d2021 */
+    --dark0-hard:       rgb(var(--dark0-hard_x));
+    --dark0_x:          40,40,40; /* #282828 */
+    --dark0:            rgb(var(--dark0_x));
+    --dark0-soft_x:     50,48,47; /* #32302f */
+    --dark0-soft:       rgb(var(--dark0-soft_x));
+    --dark1_x:          60,56,54; /* #3c3836 */
+    --dark1:            rgb(var(--dark1_x));
+    --dark2_x:          80,73,69; /* #504945 */
+    --dark2:            rgb(var(--dark2_x));
+    --dark3_x:          102,92,84; /* #665c54 */
+    --dark3:            rgb(var(--dark3_x));
+    --dark4_x:          124,111,100; /* #7c6f64 */
+    --dark4:            rgb(var(--dark4_x));
+    --gray_x:           146,131,116; /* #928374 */
+    --gray:             rgb(var(--gray_x));
+
+    --light0-hard_x:    249,245,215; /* #f9f5d7 */
+    --light0-hard:      rgb(var(--light0-hard_x));
+    --light0_x:         251,241,199; /* #fbf1c7 */
+    --light0:           rgb(var(--light0_x));
+    --light0-soft_x:    242,229,188; /* #f2e5bc */
+    --light0-soft:      rgb(var(--light0-soft_x));
+    --light1_x:         235,219,178; /* #ebdbb2 */
+    --light1:           rgb(var(--light1_x));
+    --light2_x:         213,196,161; /* #d5c4a1 */
+    --light2:           rgb(var(--light2_x));
+    --light3_x:         189,174,147; /* #bdae93 */
+    --light3:           rgb(var(--light3_x));
+    --light4_x:         168,153,132; /* #a89984 */
+    --light4:           rgb(var(--light4_x));
+
+    --bright-red_x:     251,73,52; /* #fb4934 */
+    --bright-red:       rgb(var(--bright-red_x));
+    --bright-green_x:   184,187,38; /* #b8bb26 */
+    --bright-green:     rgb(var(--bright-green_x));
+    --bright-yellow_x:  250,189,47; /* #fabd2f */
+    --bright-yellow:    rgb(var(--bright-yellow_x));
+    --bright-blue_x:    131,165,152; /* #83a598 */
+    --bright-blue:      rgb(var(--bright-blue_x));
+    --bright-purple_x:  211,134,155; /* #d3869b */
+    --bright-purple:    rgb(var(--bright-purple_x));
+    --bright-aqua_x:    142,192,124; /* #8ec07c */
+    --bright-aqua:      rgb(var(--bright-aqua_x));
+    --bright-orange_x:  254,128,25; /* #fe8019 */
+    --bright-orange:    rgb(var(--bright-orange_x));
+
+    --neutral-red_x:    204,36,29; /* #cc241d */
+    --neutral-red:      rgb(var(--neutral-red_x));
+    --neutral-green_x:  152,151,26; /* #98971a */
+    --neutral-green:    rgb(var(--neutral-green_x));
+    --neutral-yellow_x: 215,153,33; /* #d79921 */
+    --neutral-yellow:   rgb(var(--neutral-yellow_x));
+    --neutral-blue_x:   69,133,136; /* #458588 */
+    --neutral-blue:     rgb(var(--neutral-blue_x));
+    --neutral-purple_x: 177,98,134; /* #b16286 */
+    --neutral-purple:   rgb(var(--neutral-purple_x));
+    --neutral-aqua_x:   104,157,106; /* #689d6a */
+    --neutral-aqua:     rgb(var(--neutral-aqua_x));
+    --neutral-orange_x: 214,93,14; /* #d65d0e */
+    --neutral-orange:   rgb(var(--neutral-orange_x));
+
+    --faded-red_x:      157,0,6; /* #9d0006 */
+    --faded-red:        rgb(var(--faded-red_x));
+    --faded-green_x:    121,116,14; /* #79740e */
+    --faded-green:      rgb(var(--faded-green_x));
+    --faded-yellow_x:   181,118,20; /* #b57614 */
+    --faded-yellow:     rgb(var(--faded-yellow_x));
+    --faded-blue_x:     7,102,120; /* #076678 */
+    --faded-blue:       rgb(var(--faded-blue_x));
+    --faded-purple_x:   143,63,113; /* #8f3f71 */
+    --faded-purple:     rgb(var(--faded-purple_x));
+    --faded-aqua_x:     66,123,88; /* #427b58 */
+    --faded-aqua:       rgb(var(--faded-aqua_x));
+    --faded-orange_x:   175,58,3; /* #af3a03 */
+    --faded-orange:     rgb(var(--faded-orange_x));
+}
+
+body
+{
+    --accent-h: 12; /* --faded-red #9d0006 */
+    --accent-s: 107%;
+    --accent-l: 32%;
+
+    --link-decoration:                none;
+    --link-decoration-hover:          none;
+    --link-external-decoration:       none;
+    --link-external-decoration-hover: none;
+
+    --tag-decoration:                 none;
+    --tag-decoration-hover:           underline;
+    --tag-padding-x:                  .5em;
+    --tag-padding-y:                  .2em;
+    --tag-radius:                     .5em;
+
+    --tab-font-weight:                600;
+    --bold-weight:                    600;
+
+    --checkbox-radius:                0;
+
+    /* --list-indent:                    2em; */
+
+    --embed-border-left: 6px double var(--interactive-accent);
+}
+
+.theme-dark
+{
+    --color-red-rgb:                 var(--neutral-red_x);
+    --color-red:                     var(--neutral-red);
+    --color-purple-rgb:              var(--neutral-purple_x);
+    --color-purple:                  var(--neutral-purple);
+    --color-green-rgb:               var(--neutral-green_x);
+    --color-green:                   var(--neutral-green);
+    --color-cyan-rgb:                var(--neutral-blue_x);
+    --color-cyan:                    var(--neutral-blue);
+    --color-blue-rgb:                var(--faded-blue_x);
+    --color-blue:                    var(--faded-blue);
+    --color-yellow-rgb:              var(--neutral-yellow_x);
+    --color-yellow:                  var(--neutral-yellow);
+    --color-orange-rgb:              var(--neutral-orange_x);
+    --color-orange:                  var(--neutral-orange);
+    --color-pink-rgb:                var(--bright-purple_x);
+    --color-pink:                    var(--bright-purple);
+
+    --background-primary:            var(--dark0);
+    --background-primary-alt:        var(--dark0);
+    --background-secondary:          var(--dark0-hard);
+    --background-secondary-alt:      var(--dark1);
+    --background-modifier-border:    var(--dark1);
+
+    --cursor-line-background:        rgba(var(--dark1_x), 0.5);
+
+    --text-normal:                   var(--light0);
+    --text-faint:                    var(--light1);
+    --text-muted:                    var(--light2);
+
+    --h1-color:                      var(--neutral-red);
+    --h2-color:                      var(--neutral-yellow);
+    --h3-color:                      var(--neutral-green);
+    --h4-color:                      var(--neutral-aqua);
+    --h5-color:                      var(--neutral-blue);
+    --h6-color:                      var(--neutral-purple);
+
+    --text-highlight-bg:             var(--neutral-yellow);
+    --text-highlight-fg:             var(--dark0-hard);
+
+    --text-accent:                   var(--neutral-orange);
+    --text-accent-hover:             var(--bright-aqua);
+
+    --tag-color:                     var(--bright-aqua);
+    --tag-background:                var(--dark2);
+    --tag-background-hover:          var(--dark1);
+
+    --titlebar-text-color-focused:   var(--bright-red);
+
+    --inline-title-color:            var(--bright-yellow);
+
+    --bold-color:                    var(--neutral-yellow);
+    --italic-color:                  var(--neutral-yellow);
+
+    --checkbox-color:                var(--light4);
+    --checkbox-color-hover:          var(--light4);
+    --checkbox-border-color:         var(--light4);
+    --checkbox-border-color-hover:   var(--light4);
+    --checklist-done-color:          rgba(var(--light2_x), 0.5);
+
+    --table-header-background:       rgba(var(--dark0_x), 0.2);
+    --table-header-background-hover: var(--dark2);
+    --table-row-even-background:     rgba(var(--dark2_x), 0.2);
+    --table-row-odd-background:      rgba(var(--dark2_x), 0.4);
+    --table-row-background-hover:    var(--dark2);
+
+    --text-selection:                rgba(var(--neutral-red_x), 0.6);
+    --flashing-background:           rgba(var(--neutral-red_x), 0.3);
+
+    --code-normal:                   var(--bright-blue);
+    --code-background:               var(--dark1);
+
+    --mermaid-note:                  var(--neutral-blue);
+    --mermaid-actor:                 var(--dark2);
+    --mermaid-loopline:              var(--neutral-blue);
+
+    --icon-color-hover:              var(--bright-red);
+    --icon-color-focused:            var(--bright-blue);
+
+    --nav-item-color-hover:          var(--bright-red);
+    --nav-item-color-active:         var(--bright-aqua);
+    --nav-file-tag:                  rgba(var(--neutral-yellow_x), 0.9);
+
+    --graph-line:                    var(--dark2);
+    --graph-node:                    var(--light3);
+    --graph-node-tag:                var(--neutral-red);
+    --graph-node-attachment:         var(--neutral-green);
+
+    --calendar-hover:                var(--bright-red);
+    --calendar-background-hover:     var(--dark1);
+    --calendar-week:                 var(--neutral-orange);
+    --calendar-today:                var(--neutral-orange);
+
+    --dataview-key:                  var(--text-faint);
+    --dataview-key-background:       rgba(var(--faded-red_x), 0.5);
+    --dataview-value:                var(--text-faint);
+    --dataview-value-background:     rgba(var(--neutral-green_x), 0.3);
+
+    --tab-text-color-focused-active:         var(--neutral-yellow);
+    --tab-text-color-focused-active-current: var(--bright-red);
+}
+
+.theme-light
+{
+    --color-red-rgb:                 var(--neutral-red_x);
+    --color-red:                     var(--neutral-red);
+    --color-purple-rgb:              var(--neutral-purple_x);
+    --color-purple:                  var(--neutral-purple);
+    --color-green-rgb:               var(--neutral-green_x);
+    --color-green:                   var(--neutral-green);
+    --color-cyan-rgb:                var(--neutral-blue_x);
+    --color-cyan:                    var(--neutral-blue);
+    --color-blue-rgb:                var(--faded-blue_x);
+    --color-blue:                    var(--faded-blue);
+    --color-yellow-rgb:              var(--neutral-yellow_x);
+    --color-yellow:                  var(--neutral-yellow);
+    --color-orange-rgb:              var(--neutral-orange_x);
+    --color-orange:                  var(--neutral-orange);
+    --color-pink-rgb:                var(--bright-purple_x);
+    --color-pink:                    var(--bright-purple);
+
+    --background-primary:            var(--light0-hard);
+    --background-primary-alt:        var(--light0-hard);
+    --background-secondary:          var(--light1);
+    --background-secondary-alt:      var(--light1);
+    --background-modifier-border:    var(--light2);
+
+    --cursor-line-background:        rgba(var(--light1_x), 0.5);
+
+    --text-normal:                   var(--dark0);
+    --text-faint:                    var(--dark3);
+    --text-muted:                    var(--dark2);
+
+    --h1-color:                      var(--neutral-red);
+    --h2-color:                      var(--neutral-yellow);
+    --h3-color:                      var(--neutral-green);
+    --h4-color:                      var(--neutral-aqua);
+    --h5-color:                      var(--neutral-blue);
+    --h6-color:                      var(--neutral-purple);
+
+    --text-highlight-bg:             var(--bright-yellow);
+    --text-highlight-fg:             var(--dark0);
+
+    --text-accent:                   var(--neutral-orange);
+    --text-accent-hover:             var(--bright-aqua);
+
+    --tag-color:                     var(--neutral-aqua);
+    --tag-background:                var(--light1);
+    --tag-background-hover:          rgba(var(--light1_x), 0.6);
+
+    --titlebar-text-color-focused:   var(--bright-red);
+
+    --inline-title-color:            var(--bright-yellow);
+
+    --bold-color:                    var(--neutral-yellow);
+    --italic-color:                  var(--neutral-yellow);
+
+    --checkbox-color:                var(--light4);
+    --checkbox-color-hover:          var(--light4);
+    --checkbox-border-color:         var(--light4);
+    --checkbox-border-color-hover:   var(--light4);
+    --checklist-done-color:          rgba(var(--dark2_x), 0.4);
+
+    --table-header-background:       rgba(var(--light3_x), 0.4);
+    --table-header-background-hover: var(--light2);
+    --table-row-even-background:     rgba(var(--light1_x), 0.2);
+    --table-row-odd-background:      rgba(var(--light1_x), 0.7);
+    --table-row-background-hover:    var(--light2);
+
+    --text-selection:                rgba(var(--neutral-red_x), 0.6);
+    --flashing-background:           rgba(var(--neutral-red_x), 0.3);
+
+    --code-normal:                   var(--bright-blue);
+    --code-background:               var(--light1);
+
+    --mermaid-note:                  var(--bright-blue);
+    --mermaid-actor:                 var(--light3);
+    --mermaid-loopline:              var(--neutral-blue);
+
+    --icon-color-hover:              var(--bright-red);
+    --icon-color-focused:            var(--bright-blue);
+
+    --nav-item-color-hover:          var(--bright-red);
+    --nav-item-color-active:         var(--neutral-blue);
+    --nav-file-tag:                  rgba(var(--neutral-blue_x), 0.9);
+
+    --graph-line:                    var(--light1);
+    --graph-node:                    var(--gray);
+    --graph-node-tag:                var(--neutral-red);
+    --graph-node-attachment:         var(--bright-green);
+
+    --calendar-hover:                var(--bright-red);
+    --calendar-background-hover:     var(--light1);
+    --calendar-week:                 var(--bright-red);
+    --calendar-today:                var(--bright-red);
+
+    --dataview-key:                  var(--text-faint);
+    --dataview-key-background:       rgba(var(--faded-red_x), 0.3);
+    --dataview-value:                var(--text-faint);
+    --dataview-value-background:     rgba(var(--neutral-green_x), 0.2);
+
+    --tab-text-color-focused-active:         var(--neutral-yellow);
+    --tab-text-color-focused-active-current: var(--bright-red);
+}
+
+table
+{
+    border: 1px solid var(--background-secondary) !important;
+    border-collapse: collapse;
+}
+
+thead
+{
+    border-bottom: 2px solid var(--background-modifier-border) !important;
+}
+  
+th
+{
+    font-weight: 600 !important;
+    border: 1px solid var(--background-secondary) !important;
+}
+
+td
+{
+    border-left: 1px solid var(--background-secondary) !important;
+    border-right: 1px solid var(--background-secondary) !important;
+    border-bottom: 1px solid var(--background-secondary) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(even)
+{
+    background-color: var(--table-row-even-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(odd)
+{
+    background-color: var(--table-row-odd-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(even):hover,
+.markdown-rendered tbody tr:nth-child(odd):hover
+{
+    background-color: var(--table-row-background-hover) !important;
+}
+
+.markdown-rendered mark
+{
+    background-color: var(--text-highlight-bg) !important;
+    color: var(--text-highlight-fg) !important;
+}
+
+.markdown-rendered mark a
+{
+    color: var(--red) !important;
+    font-weight: 600;
+}
+
+.search-result-file-matched-text
+{
+    color: var(--text-highlight-fg) !important;
+}
+
+.cm-hashtag-begin:hover, .cm-hashtag-end:hover
+{
+    color: var(--text-accent);
+    /* background-color: var(--tag-background-hover); */
+    text-decoration: underline;
+}
+
+input[type=checkbox]
+{
+    border: 1px solid var(--checkbox-color);
+}
+
+input[type=checkbox]:checked
+{
+    background-color: var(--checkbox-color);
+    box-shadow: inset 0 0 0 2px var(--background-primary);
+}
+
+input[type=checkbox]:checked:after
+{
+    display: none;
+}
+
+code[class*="language-"],
+pre[class*="language-"]
+{
+    line-height: var(--line-height-tight) !important;
+}
+
+/* Keep highlight/marks the same between viewer and editor. */
+.cm-highlight
+{
+    color: var(--text-highlight-fg) !important;
+}
+
+/* Keep inline code the same between viewer and editor. */
+.cm-inline-code
+{
+    border-radius: var(--radius-s);
+    font-size: var(--code-size);
+    padding: 0.1em 0.25em;
+}
+
+/* Keep list bullet padding the same between viewer and editor. */
+.cm-formatting-list
+{
+    padding-right: 4px !important;
+}
+
+/*
+ * Keep sub-list indenting the same between viewer and editor.
+ * This assumes --list-indent is default at 2em.
+ */
+/*
+.cm-indent 
+{
+    text-indent: 1em !important;
+}
+*/
+
+.mermaid .note
+{
+    fill: var(--mermaid-note) !important;
+}
+
+.mermaid .actor
+{
+    fill: var(--mermaid-actor) !important;
+}
+
+.mermaid .loopLine
+{
+    stroke: var(--mermaid-loopline) !important;
+}
+
+.calendar .week-num
+{
+    color: var(--calendar-week) !important;
+}
+
+.calendar .today
+{
+    color: var(--calendar-today) !important;
+}
+
+.calendar .week-num:hover,
+.calendar .day:hover
+{
+    color: var(--calendar-hover) !important;
+    background-color: var(--calendar-background-hover) !important;
+}
+
+.markdown-embed-title
+{
+    color: var(--yellow);
+    font-weight: 600 !important;
+}
+
+.cm-active
+{
+    background-color: var(--cursor-line-background) !important;
+}
+
+.nav-file-tag
+{
+    color: var(--nav-file-tag) !important;
+}
+
+.is-flashing
+{
+    background-color: var(--flashing-background) !important;
+}
+
+.dataview.inline-field-key
+{
+    border-top-left-radius: var(--radius-s);
+    border-bottom-left-radius: var(--radius-s);
+    padding-left: 4px;
+    font-family: var(--font-monospace);
+    font-size: var(--font-smaller);
+    color: var(--dataview-key) !important;
+    background-color: var(--dataview-key-background) !important;
+}
+
+.dataview.inline-field-value
+{
+    border-top-right-radius: var(--radius-s);
+    border-bottom-right-radius: var(--radius-s);
+    padding-right: 4px;
+    font-family: var(--font-monospace);
+    font-size: var(--font-smaller);
+    color: var(--dataview-value) !important;
+    background-color: var(--dataview-value-background) !important;
+}
+
+.suggestion-highlight
+{
+    color: var(--bright-red);
+}
+
+ body{--zen-opacity: 0.25;}undefined
+</style>
+    </head>
+    <body>
+<p>+++<br>
+title =  "Kings"<br>
+tags = ["philosophy"]<br>
+date = "2023-02-26"<br>
+author = "Amar Shavir"<br>
+image = "/kings.png"<br>
++++</p>
+<h1 data-heading="What is the role of a king?">What is the role of a king?</h1>
+<p>The hierarchical position has evolved drastically throughout history and across different cultures. Throughout history, the king was seen as a divine or semi-divine figure maintaining ultimate authority over their subjects. With the establishment of democracy in the fifth century B.C.E. Athens the king transformed into a more mortal political leader who governed with the support of a powerful noble class or with the consent of a representative body. In many feudal societies, the king was the supreme ruler who held all political power and was responsible for administrating justice, maintaining order, and protecting the kingdom from external threats. Because of the innate parasocial relationship between kings and their subjects, or the more favorable term “constituents,” Kings were often considered divinely ordained or, better yet, designated themselves to be of divine origin themselves. This “Godhood” gave way to absolute power, as no mortal subject would ever dare oppose a God. In more modern societies, the role of the king has changed dramatically. In many countries, the monarchy is now a ceremonial or symbolic institution with limited political power, and elected representatives hold the real power. The symbolic nature of royalty stands ever present through the United Kingdom, In other countries however, the monarchy has been abolished altogether.</p>
+<h1 data-heading="What are the idealistic examples of kings in media?">What are the idealistic examples of kings in media?</h1>
+<p>The fine arts and media were birthed and enjoyed by the elites – lords, ladies, kings, queens – of society. Subjects in the position of bards, storytellers, and arts would make a living by portraying their king in the best light to “making a living” or, more accurately, to continue living. In any case, the progression of civilizations, stretching outside the bounds of the obsolete feudal governance, idealizes kings as being that should be noble and just. The relevant case of media idealization would be the Great king Arthur (and the knights of the round table). According to the legend, King Arthur Pendragon was a legendary British king who ruled during the late 5th and early 6th century. He was son of King Uther Pendragon and was raised by Sir Hector as a ward of the court. As a young man, Arthur pulled the sword Excalibur from a stone. A signification, he was the true king of Britain, As King Arthur established a court of Camelot.</p>
+<p>See <a aria-label-position="top" aria-label="https://www.britannica.com/topic/King-Arthur" rel="noopener" class="external-link" href="https://www.britannica.com/topic/King-Arthur" target="_blank">King Arthur</a> For more information about the legendary king.</p>
+<h1 data-heading="King as symbolism">King as symbolism</h1>
+<p>While the story of King Arthur is the most relevant when it comes to my main point of this paper, outlining idealistic rulers and their real-life counterparts. There is a noticeable inclination in modern civilizations to worship those who hold the position of a celebrity.</p>
+<p>Musicians, Actors, and now the recent more recent development of online influencers carry with them the same parasocial relationship as the kings and queens of feudal times. This relationship between celebrities and fans is, in part, in some way exploitive, whether that be for more money, ever an increasing political agenda, or some other social metric; this “exploitation” does happen to drastically vary from celebrity to celebrity as the level of opportunistic capacity varies from person to person, but I digress.</p>
+<p>In 2018, the “Black Panther” film was released, based on the character and directed by Ryan Coogler. The film was set in the Marvel Cinematic Universe. It starred Chadwick Boseman as T'Challa/Black Panther, Michael B. Jordan as Erik Killmonger, Lupita Nyong'o as Nakia, and Danai Gurira as Okoye. The film was a critical and commercial success and received widespread praise for its groundbreaking representation of black characters and themes.</p>
+<p>It was also the first superhero film nominated for the Academy Award for Best Picture. The film inspired thousands to millions of young people of color that they could be their king or queen. As anecdotal evidence, I was one of them. When I first left the movie theater at 14, I was utterly filled with hope and some pride because the people in the production “looked just like me”. In this instance, both the actor and character take the role of pseudo-kings; for the minds of youth, having a robust role model is a crucial part of developing into an adult.<br>
+However, they are nothing more than public figures. These pseudo-kings hold power in mind and not by will, thus making them symbolic of whatever cause they choose part take in. And depending on the cause, it can also be their downfall as a symbol.  </p>
+<p>Looking back, it is strange that I had such a strong reaction to the movie when the character itself was not real, and none of the events happened. There are far better role models than a King living in an isolated society fighting crime in a catsuit sponsored by a magical space rock (Yes, Vibranium is, in fact, magic, it does way too much crazy nonsense not to be, I do not care that they call it a metal). Better role models for young black Americans would be Malcolm X, MLK, Muhammad Ali, or more contemporary leaders such as Magatte wade, David Goggins, or Idris Elba (Yes, Idris Elba is an actor, but he is also a film developer in the west African nation of Ghana, so I am making an exception).</p>
+<p>I believe it is essential to clarify that these sorts of pseudo-kings and role models should be recognized as separate entities. Role models are essential in inspiring others in the face of hardship; false kings do nothing more than leach off the people, positing them at their status level with no real power over the public besides drawing their attention. While I provided examples of famous people as Role models, those two traits do not have to coexist simultaneously. A role model can be anyone, but as an idealistic model for behavior, you should avoid meeting them or letting their actions affect you directly. If the actions of a public figure do directly influence you, their role transforms into that of a pseudo-king.</p>
+<h1 data-heading="Vlad Dracula Tepes">Vlad Dracula Tepes</h1>
+<p>The noble king is often found in media but rarely in history, as a dark mirror to the idealism of king Arthur is the realism of Vlad II. Vlad II, also known as Vlad the Impaler, was a medieval ruler of Wallachia, a region in present-day Romania, who lived from 1431 to 1476. Vlad is known for his cruelty and his use of impalement as a method of execution, which earned him the nickname "Vlad the Impaler".</p>
+<p>Vlad's father was a member of the Order of the Dragon, a chivalric order founded to protect Christianity in Europe. After his father's death, Vlad became the ruler of Wallachia, a position he held three times between 1448 and 1476. During his reign, Vlad was known for his brutal tactics against his enemies, including but not limited to…<br>
+""<br>
+impaling them on stakes and leaving their bodies to rot in public view as warning to others. Boiling, burning, and blinding.<br>
+“"			<br>
+Some saw Vlad as a hero for his efforts to resist the Ottoman Empire, which was seeking to expand into Eastern Europe. He is mainly known for his campaign against the Ottoman Sultan Mehmed II, during which he impaled tens of thousands of Ottoman soldiers and prisoners of war.  Vlad was eventually captured by his enemies and imprisoned, and he was killed in battle in 1476 while trying to regain his throne. Today, he is remembered as a controversial figure in Romanian history, and his legacy continues to be debated and interpreted.</p>
+<p>Vlad Tepe's story is the public perception that “Dracula” has. Vlad III has been mention as a part of the violent tyrants of all time for his ruthlessness and cruelty. A large part of Vlad's perception has to do a cycle of propaganda.</p>
+<p>Vlad maintained a deep-seated hatred of the Valachian nobles who murdered his father and brother. The moment Vlad regained power, he quickly disposed of the traitorous noblemen. Naturally, the nobles retaliated by spreading false rumors and plotting to depose him. With the aid of a fake letter, they managed to convince the king of Hungary, Matthias I, that Vlad desired to ally himself with the Sultan. As a result, he imprisoned the Wallachian voivode in Visegrád. He was killed fighting the nobles after he regained the throne. “During Vlad’s imprisonment, news of his false betrayal spread through Europe, fueled further by his reputation. He became the subject of several paintings where he is portrayed as either <a aria-label-position="top" aria-label="https://www.thecollector.com/pontius-pilate-the-man-who-sentenced-jesus-christ-to-death/" rel="noopener" class="external-link" href="https://www.thecollector.com/pontius-pilate-the-man-who-sentenced-jesus-christ-to-death/" target="_blank">Pontius Pilate</a> or as Aegeas, the Roman proconsul of Patras, present at the crucifixion of Saint Andrew. Also, he is the subject of a poem written by Michael Beheims, entitled <em>Story of a Despot Called Dracula, Voivode of Wallachia</em>.”  It should be clear by now that regardless of how cruel he may or may not have been, that was the reputation Vlad III garnished. Like I had previously mentioned, the Vlad II was crucial in resisting The Ottoman Empire march on to West Europe and, because of this, is responsible for protecting Christianity as we know it now. The same Christianity that would go on to label him as Tepes as Dracula.</p>
+<h1 data-heading="A hero is a monster for the week">A hero is a monster for the week</h1>
+<p>King Arthur, I would argue, did nothing more than pickup a sword and defend his people from the monstrous invaders. In the same way, Vlad III picked up ten foot wooden stakes and did the same thing. There are two main differences from what Arthur and Dracula story. Difference A is that the monsters that Arthur killed were just that <em>monsters</em>, that don't exist in reality and are only a figment of our shared imagination.</p>
+<p>To add depth to the character of Dracula, the vast majority of the populace claim that the primary inspiration for the vampire king was the real-life Vladimir Dracul Tepes. This basis, however, has no real merit for a couple of reasons. In Bram Stoker's tale, Dracula follows none of the actions or even acts similarly to Vlad Tepes, other than being "bloodthirsty" but to claim that Stoker's only reference to a Tepes was taking an abstract adjective and making it hyper-literal.</p>
+<h1 data-heading="The Dracula Tepes in media/anime">The Dracula Tepes in media/anime</h1>
+<p>While Dracula is frequently represented in the film as a direct representation of Bram Stoker's vampiric tyrant, there are a few extraordinary retellings. My favorite is not a "Dracula," but one that fits the "tyrannical blood lusted king archetype".</p>
+<p>King Bradley is a pivotal character in the Fullmetal Alchemist and Fullmetal Alchemist Brotherhood anime series. As the leader of the country of Amestris and holder of the title "Führer," Bradley is portrayed as a charismatic, powerful, and ruthless leader who enforces the government's laws with an iron fist. However, as the story progresses, his true identity as a homunculus is revealed, adding depth and complexity to his character and his motivations. One of the most significant aspects of King Bradley's character is his role as a leader. Throughout the series, he is shown as a charismatic and effective leader who commands respect and loyalty from his subordinates. He is also skilled in the art of combat, possessing incredible speed, agility, and strength. As a result, he is often called upon to carry out dangerous missions and defend his country from external threats. However, as the story progresses, it becomes clear that Bradley's leadership is not as benevolent as it initially appears. He is revealed to be a homunculus created through alchemy with no soul. This revelation adds complexity to his character, as it raises questions about his true loyalties and motivations. It is eventually revealed that Bradley's ultimate goal is to carry out the plans of his creator, Father, to create a massive transmutation circle that will grant him god-like power.</p>
+<p>One of King Bradley's most notorious actions is his role in the Ishvalan War, a conflict between the state of Amestris and the Ishvalan people. Bradley was directly involved in the war as a commanding officer, and his actions during this time were brutal and merciless. He led the military's efforts to eliminate the Ishvalans, using alchemical weapons and ordering his soldiers to kill indiscriminately. As a result, many Ishvalans were massacred, and the survivors were forced into ghettos. Bradley's cruelty extended beyond the Ishvalan War, as he was also responsible for numerous assassinations and acts of terror against his own people. He ordered the murder of anyone who threatened his power or the stability of the state, including members of his own cabinet. He was also directly involved in the creation of the Homunculi, artificial beings created through alchemy, and used them as tools to carry out his schemes and eliminate his enemies. Despite his ruthless nature and questionable motivations, Bradley is shown to have a human side. He is portrayed as having a deep affection for his wife, whom he refers to as "Mrs. Bradley," and his son, Selim. This aspect of his character creates a conflict between his duties as a leader and his personal relationships, as he is forced to choose between his duty to his country and his duty to his family.Overall, King Bradley's reign was marked by violence, oppression, and terror, and he was willing to commit any atrocity to maintain his power and control. His actions serve as a cautionary tale about the dangers of unchecked power and the importance of accountability and justice in leadership.</p>
+<h1 data-heading="The context of Kings">The context of Kings</h1>
+<p>This section is in no way a defense of the actions of people with the role of the position of king. Unlike most, royalty is granted a level of self-autonomy that most of humanity did not have.<br>
+With that said, life before the 20th century was unapologetically terrible for everyone. Even with significantly lower economic power, the quality of life that the "average" westerner experience is significantly higher than the kings in history.</p>
+<p>History has been a mixed bag for different individuals and groups, as it has been marked by both progress and setbacks, triumphs and tragedies, and achievements and atrocities. While some people have enjoyed great wealth, power, and privilege, others have experienced poverty, oppression, and discrimination.</p>
+<p>Some of the factors that have contributed to the difficulties faced by people throughout history include:</p>
+<ol>
+<li>
+<p>Power imbalances: Throughout history, power has often been concentrated in the hands of a small ruling elite, leading to widespread inequality and exploitation of the masses.</p>
+</li>
+<li>
+<p>Conflict and war: Conflicts and wars have ravaged societies throughout history, leading to loss of life, displacement, and destruction of property.</p>
+</li>
+<li>
+<p>Disease and famine: Epidemics and famines have plagued societies throughout history, causing widespread suffering and death.</p>
+</li>
+<li>
+<p>Natural disasters: Natural disasters such as earthquakes, floods, and hurricanes have caused widespread destruction and loss of life throughout history.</p>
+</li>
+<li>
+<p>Prejudice and discrimination: Throughout history, individuals and groups have faced discrimination and prejudice based on factors such as race, ethnicity, religion, gender, and sexuality.</p>
+</li>
+</ol>
+<p>While there have been many challenges throughout history, it's also worth noting that there have been many positive developments and achievements as well, such as advances in science and technology, improvements in healthcare and education, and the establishment of democratic institutions and civil rights.</p>
+<p>Because of the institution of succession, most kings were born into their power.  A result of hyperactive nepotism is a lot of unqualified leaders. And even those who would be considered to be qualified still often find themselves in the pitfalls of history. King Charles I was the monarch of England, Scotland, and Ireland from 1625 until his execution in 1649. He was born on November 19, 1600, at Dunfermline Palace in Scotland, the second son of James VI of Scotland and I of England. Charles was raised in the Anglican faith and received a royal education. Charles became king in 1625 after his father's death, and he quickly became embroiled in conflict with Parliament over issues such as taxation, foreign policy, and religious freedom. In 1642, tensions between Charles and Parliament erupted into the English Civil War, with Charles leading the Royalist forces against the Parliamentarian forces led by Oliver Cromwell. The war was long and brutal, with both sides committing atrocities and inflicting significant damage on the country. In 1646, Charles surrendered to the Scottish army, but the Scottish turned him over to Parliament in exchange for payment of their expenses. In 1648, Charles tried to regain his throne by force, but the Parliamentarians defeated and captured him. In January 1649, he was put on trial for high treason, found guilty, and sentenced to death. On January 30, 1649, Charles was beheaded at the Banqueting House in Whitehall, London. Charles' execution was a watershed moment in English history, leading to the establishment of the Commonwealth of England, which lasted until the Restoration of the monarchy in 1660. Charles was later canonized by the Church of England as a martyr and is commemorated in the Church's calendar on January 30.</p>
+<p>The Royal Uk writes this about Charles...</p>
+<p>"""<br>
+Charles was reserved (he had a residual stammer), self-righteous and had a high concept of royal authority, believing in the divine right of kings. He was a good linguist and a sensitive man of refined tastes. He spent a lot on the arts, inviting the artists Van Dyck and Rubens to work in England, and buying a great collection of paintings by Raphael and Titian (this collection was later dispersed under Cromwell). Charles I also instituted the post of Master of the King's Music, involving supervision of the King's large band of musicians; the post survives today.<br>
+"""</p>
+<p>(It turns out Grammarly is no a fan of British English)</p>
+<p>Charles, the first, is a character I do not believe to be an outlier in the history of kings. In fact, I believe His rise and fall are far more representative of the history of kings than figures like King Cyrus or Alexander. That is to say, being placed on a high pedestal in society creates a level of exposure for one individual that a person is not naturally equipped to handle. Charles, the first, only cared about the purpose and his own interest, and because of the level of power that a king has, he could do what he wanted without any resistence. He failed to calculate the effects of his actions or how the public would view him, and due to that failure lost his life</p>
+<h1 data-heading="Be wary of those who aspire to be &quot;king.&quot;">Be wary of those who aspire to be "king."</h1>
+<p>a cautionary note about those who seek positions of power and authority. While not all individuals who aspire to leadership roles are inherently bad or corrupt, history has shown that many leaders have abused their power and committed atrocities in the pursuit of their own interests. Leaders who seek power for its own sake may be more interested in maintaining their own position and authority than in serving the interests of their constituents. They are willing to compromise their values, to lie, to cheat, or commit acts of violence to protect their position or to further their own agenda. Therefore, it is important to be vigilant and discerning when evaluating those who seek leadership roles. It is important to consider their values, track record, and intentions, as well as their ability to work collaboratively and listen to diverse perspectives. Ultimately, leaders should be held accountable for their actions and should be motivated by a genuine desire to serve their community and to make positive changes. By being cautious and vigilant about those who seek power, we can help to ensure that our leaders act in the best interests of their constituents and society as a whole. Make no mistake my western readers, we have kings in our world yet, and the most powerful ones are the ones that you do not know exist.</p>
+    </body>
+</html>
