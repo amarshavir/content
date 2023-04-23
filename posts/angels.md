@@ -1,5 +1,5 @@
 +++
-title =  "Will"
+title =  "Angels"
 tags = ["philosophy","religion"]
 image = '/Angels.jpg'
 date = "2023-02-01"
