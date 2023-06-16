@@ -19,9 +19,11 @@
             "id": "b5755590ebf89831",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Trap card.pdf"
+                "file": "about.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trap card.pdf",
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

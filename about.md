@@ -1,4 +1,3 @@
- Some change
 ## intro intro
 
 I am incredibly lazy, and instead of writing original content for my about page, I will simply copy-paste my common application. I never ended up applying to any university with it, but I do think it does an ok job at representing me and my personality.
