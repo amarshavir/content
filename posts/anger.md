@@ -2,6 +2,7 @@
 title =  "Irrationally angry"
 tags = ["philosophy"]
 date = "2023-01-10"
+updated = "2023-06-16"
 author = "Amar Shavir"
 +++
 
@@ -44,3 +45,23 @@ People in my life seem to think I am Either completely harmless or borderline ev
 
 ### later on 
 I will probably end up updating this list the more that I live on this planet and remember to add things or discover new things that I wish God would remove from existence.
+
+## Update Friday, June 16/2023
+
+Hello, its “later” and i have some more pet peeves.
+
+## You can’t watch and ignore me
+
+the Audacity that some of these kids have now days is wild to me. What I am referring to is when some watches your story on a mobile application but then ignores your direct messages. I can see that you are online. you cant use some silly excuse to be like “oh, I didn't see it”, the concept of notifications have existed since mobile apps gained mass adoption. Its the most ridiculous nonsense ever like what are you even doing
+
+## Stop trying to test my insurance policy
+
+I do not have a clue what is with Americans and their need to drive behind me with 4 ft of space between our cars, but the anxiety that it gives me, could cause an earthquake. This is made even more idiotic when you live in a place with a volume of wild life that just love to jump in front of cars. If I brake for even a half second because some rabbit was running across the street, because just like the moron driver it too does not value its life, My car is screwed and depending on what you decided to ride my balls with, so are you.
+
+## Syrup
+
+Hear me out, so imagine that you are in grade school, and because kids are degenerates they take up the hobby of throwing Syrup packs on damn near every surface, and I do mean ALL of them. the bath rooms, desks, bleachers. some dork even put open Syrup in my best friends book bag. every time I see Syrup I recoil in pain from every single time I had to walk around in sticky shoes because the average IQ in the States is lower than a chimpanzee.
+
+## Fake naturals
+
+you are on gear, your body was assisted with the usage of drugs, why do you claim that you are natural? and more importantly what difference does it make? almost everyone in the western world has used drugs at some point to help them fight sickness, why do you feel the need to say that you don’t need them? why do you feel the need to lie to your audience? it can’t possible make you feel good. Gym culture itself is a sickness, with so much false information, influencers, and unrealistic expectations. I hate almost all of it. The core foundation of going to the gym is to become better, and yet so many people put road blocks and hurdles in front of others.
