@@ -123,6 +123,28 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "05ebd6ad995271de",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "about.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "de8471941cce36aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "about.md"
+              }
+            }
           }
         ],
         "currentTab": 1
