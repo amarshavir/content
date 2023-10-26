@@ -46,9 +46,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "282fc6662e820cbd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -185,24 +195,24 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "c96f5fdda481d2c2",
+  "active": "282fc6662e820cbd",
   "lastOpenFiles": [
-    "Masculinity.md",
+    "Blackest Night.md",
+    "about.md",
     "D.C..md",
+    "Masculinity.md",
+    "posts/christmas.md",
+    "posts/anger.md",
+    "posts/angels.md",
     "Trap card.pdf",
     "posts/slaves.md",
     "posts/minimum.md",
     "posts/kings.md",
     "posts/deletion.md",
-    "posts/christmas.md",
     "posts/mlk.md",
-    "about.md",
-    "Blackest Night.md",
     "bit.sh",
-    "posts/anger.md",
     "Meme.pdf",
     "kings.md",
-    "posts/angels.md",
     "posts/kings.docx",
     "posts/kings.tex",
     "posts/kings.html",
