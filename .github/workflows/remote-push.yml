@@ -20,7 +20,7 @@ jobs:
 
         run: |
 
-          curl -X POST https://api.github.com/repos/amarshavir/amarshavir.github.io/dispatches \
+          curl -X POST https://api.github.com/repos/amarshavir/amarshavir.github.io/actions/workflows/remote-pull.yml/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
           -u ${{ secrets.ACCESS_TOKEN }} \
           --data '{"event_type": "pong", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
