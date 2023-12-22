@@ -1,11 +1,11 @@
-+++
-title = "The Minimum Wage"
-tags = ["econ", "politics"]
-date = "2023-01-24"
-author = "Amar Shavir"
-image="/wage.png"
-+++
-## History
+#+image: /wage.png
+#+title: The Minimum Wage
+#+tags[]: econ, politics
+#+date: <2023-01-24>
+#+author: Amar Shavir
+#+image: /mlk.png
+
+* History
 The history of the minimum wage in the United States dates back to the early 20th century. The first federal minimum wage law, the Fair Labor Standards Act (FLSA), was passed in 1938 as part of President Franklin D. Roosevelt's New Deal. The initial rate was set at 25 cents per hour and covered workers in specific industries, such as manufacturing and transportation.
 
 In the years following the passage of the FLSA, the minimum wage was increased several times to keep pace with inflation. The rate reached $1 per hour in 1956 and $3.35 per hour in 1981.
@@ -18,7 +18,7 @@ In 2020, during the COVID-19 pandemic, the Federal Government passed the CARES A
 
 Currently, the federal minimum wage is $7.25 per hour; however, several states and cities have set their minimum wage rates higher than the national rate. The history of the minimum wage has been marked by debates and controversies, with proponents arguing that it is necessary to ensure that low-wage workers can afford a basic standard of living. At the same time, opponents say that it can lead to job losses and higher prices.
 
-## Why Increase the minimum
+** Why Increase the minimum
 
 1.  To combat poverty and income inequality: A higher minimum wage would increase the income of low-wage workers, helping to lift them out of poverty and reduce income inequality.
 
@@ -36,7 +36,7 @@ Currently, the federal minimum wage is $7.25 per hour; however, several states a
 
 
 
-## The Fair Minimum Wage Act of 2023
+** The Fair Minimum Wage Act of 2023
 A theoretical bill to increase the minimum wage to 15$ over the course of 5 years.
 It is not good but it is an easy baseline to follow as a barebones template.
 
@@ -93,7 +93,7 @@ There are authorized to be appropriated such sums as may be necessary to carry o
 This bill aims to increase the minimum wage in a gradual manner, taking into account inflation rate and ensuring that the increase is capped at a certain percentage each year to allow businesses to adjust accordingly while also ensuring that the goal of $15/hour is reached within 5 years for covered employees, $7.50/hour for tipped employees and $9.50/hour for employees with disabilities.
 
 
-## Personal thoughts
+* Personal thoughts
 
 The argument of whether the minimum wage should be increased is philosophical. The primary determinant of whether someone supports raising the minimum wage is whether someone believes that minimum wage should be __"livable."__ However, "livable" has incredible flexibility depending on where you live in the states. Because of this flexibility having a set raise to 15 an hour has the potential to hurt small businesses the most, especially in low-income areas. The individual is paid by the industry, but if the company can not afford to pay its employees, the only thing that happens is an increase in unemployment.
 
