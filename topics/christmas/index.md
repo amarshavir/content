@@ -3,9 +3,10 @@ title: Chirstmas
 topics: Religion, Philosophy
 date: 2023-01-10
 author: "Amar Shavir"
+summary: "While I typically like to write these kinds of pieces with as little emotional bearing as possible, the nature of my into the Orthodox Church is entirely personal to me."
 ---
 
-## Intro
+## Introduction
 While I typically like to write these kinds of pieces with as little emotional bearing as possible, the nature of my into the Orthodox Church is entirely personal to me. This piece will mostly go over the nuances of the Church from a westerner's perspective and then any personal notes about the Church and the relationship I have with it after attending the Christmas service.
 
 It is important to note that Orthodox Church that I attended was Eastern Orthodox of the Ethiopian people. Anything I say here may or may not apply to other Orthodox churches or even other Eastern Orthodox. I will use the protestant Methodist and Baptists Churches on my reflection points since I know the most about them and have attended them for years.

@@ -3,6 +3,7 @@ title: MLK
 topics: religion, politics,philosophy
 date: 2023-01-02
 author: Amar Shavir
+summary: "no one is born racist."
 ---
 
 # Intro
@@ -11,7 +12,7 @@ This essay was written for the MLK mentored program at the University of Louisvi
 
 # Fundamentally
 
-no one person is born racist. Racism is a behavioral pattern that is taught through culture. Racism is the product of social conditioning. Within western society, when the European nations expanded and came across Asian and African cultures, they did not understand what they found. Those Europeans found a group of people who were different. People who had different beliefs. Different Traditions.Different Values. And within those Differences, fear was born. The Europeans turned towards their God, bible, and faith as justification for slavery.
+no one is born racist. Racism is a behavioral pattern that is taught through culture. Racism is the product of social conditioning. Within western society, when the European nations expanded and came across Asian and African cultures, they did not understand what they found. Those Europeans found a group of people who were different. People who had different beliefs. Different Traditions.Different Values. And within those Differences, fear was born. The Europeans turned towards their God, bible, and faith as justification for slavery.
 
 The curse of Ham, Ham gazed upon Noah, drunken and nude; while Ham's two brothers ran to cover Noah, Ham did not. because of Ham's insolence, Noah cursed Ham and his sons, the sons of Canaan. The sons of Cain.
 
