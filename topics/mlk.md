@@ -1,11 +1,11 @@
-+++
-title = "slaves"
-topics = ["religion", "politics","philosophy"]
-date = "2023-01-24"
-author = "Amar Shavir"
-image="/slaves.png"
-+++
-## Intro
+---
+title: MLK
+topics: religion, politics,philosophy
+date: 2023-01-02
+author: Amar Shavir
+---
+
+# Intro
 
 This essay was written for the MLK mentored program at the University of Louisville. I still believe in the topic and find it relevant. Doing research for this paper has opened my eyes to the ingrained tyranny the black community has faced, even from a religious standpoint. I have made some editorial changes for the essay to be more suitable for the blog but the main points and the majority of the text is largely untouched.
 

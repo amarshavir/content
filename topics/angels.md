@@ -1,12 +1,12 @@
-+++
-title =  "Angels"
-topics = ["philosophy","religion"]
-image = '/Angels.jpg'
-date = "2023-02-01"
-disableComments = true
-author = "Amar Shavir"
-slug = 'angels'
-+++
+---
+title:  "Angels"
+topics: ["philosophy","religion"]
+image: '/Angels.jpg'
+date: "2023-02-01"
+author: "Amar Shavir"
+slug: 'angels'
+---
+
 
 ## Introduction
 
@@ -21,7 +21,7 @@ Angels have several vital roles in Islam, including:
 
 - _Messengers_: from Allah and are said to convey Allah's messages to humans.
 
-- _Recorders_: of a  person's thoughts, words, and actions.
+- [ ] _Recorders_: of a  person's thoughts, words, and actions.
 
 - _Protectors_: of human beings, with each person having two angels who record their actions.
 

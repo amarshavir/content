@@ -1,10 +1,9 @@
-+++
-title =  "Irrationally angry"
-topics = ["philosophy"]
-date = "2023-01-10"
-updated = "2023-06-16"
-author = "Amar Shavir"
-+++
+---
+title: "Irrationally angry"
+topics : ["philosophy"]
+date : "2023-01-10"
+author: "The Robellion"
+---
 
 ## Introduction
 
