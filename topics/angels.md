@@ -1,6 +1,8 @@
 ---
 title:  "Angels"
-topics: ["philosophy","religion"]
+topics: 
+    - "religion"
+    - "philosophy"
 image: '/Angels.jpg'
 date: "2023-02-01"
 author: "Amar Shavir"
