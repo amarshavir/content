@@ -24,8 +24,8 @@ date: 2024-01-22
   - Implementation of the latest networking technologies to Network a series of NFC ID entry to secure facilities in a project worth more than a quarter of a million
     
     
-- 2023: Unitied States AirForce Academy 65th Assembly Delage
-  - Reseach -- Springfield, Colorado
+- 2023: United States AirForce Academy 65th Assembly Delegate
+  - Research -- Springfield, Colorado
   - Preformed technology research as it relates to the United states affairs with China:
     - Cross referenced the current state of Artificial Intelligence development of the United State’s capabilities with China’s to determine the superior Artificial Intelligence paradigm using game theory
 
@@ -37,7 +37,7 @@ date: 2024-01-22
 - 2019 -- 2023: Student Technology Leadership Program
   - President -- Williamsburg, KY
   - Artificial Intelligence research and implementation for web and mobile applications for state competition
-  - Doubled membership of STLP chapter through a successful promotional campagin to teach elementry and middle school students code
+  - Doubled membership of STLP chapter through a successful promotional campaign to teach elementary and middle school students code
 
 ## CERTIFICATIONS
 - 2023: Certification of Information Technology 

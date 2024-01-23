@@ -440,6 +440,25 @@ var PerilousWritingPlugin = class extends import_obsidian3.Plugin {
         }).open();
       }
     });
+    this.addCommand({
+      id: "clear-session",
+      name: "Clear session",
+      checkCallback: (checking) => {
+        var _a;
+        if (checking) {
+          if (this.scheduler && ["success", "failure", "initialised"].includes(
+            this.scheduler.schedulerState
+          )) {
+            return true;
+          } else {
+            return false;
+          }
+        }
+        (_a = this.scheduler) == null ? void 0 : _a.teardown();
+        this.scheduler = void 0;
+        removeProgressBar();
+      }
+    });
     log("Loaded plugin");
   }
   onunload() {
