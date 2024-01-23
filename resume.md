@@ -1,7 +1,13 @@
 
 
-<a href="/cv.pdf" download> Down Resume </a>
 
+{{< rawhtml >}}
+  <p class="speshal-fancy-custom">
+    This is <strong>raw HTML</strong>, inside Markdown.
+  </p>
+
+  <a href="/cv.pdf" download> Down Resume </a>
+{{< /rawhtml >}}
 
 ## EDUCATION
 - 2023 -- Present: University of Louisville
