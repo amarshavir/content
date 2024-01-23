@@ -1,8 +1,10 @@
 ---
 title: MLK
-topics: religion, politics,philosophy
+topics: 
+    - religion
+    - politics
+    - philosophy
 date: 2023-01-02
-author: Amar Shavir
 summary: "no one is born racist."
 ---
 

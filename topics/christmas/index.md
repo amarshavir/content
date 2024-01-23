@@ -1,8 +1,9 @@
 ---
-title: Chirstmas
-topics: Religion, Philosophy
+title: Christmas
+topics: 
+    - religion
+    - philosophy
 date: 2023-01-10
-author: "Amar Shavir"
 summary: "While I typically like to write these kinds of pieces with as little emotional bearing as possible, the nature of my into the Orthodox Church is entirely personal to me."
 ---
 

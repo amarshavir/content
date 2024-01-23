@@ -1,11 +1,10 @@
 ---
-title:  "Angels"
+title:  Angels
 topics: 
-    - "religion"
-    - "philosophy"
-image: '/Angels.jpg'
-date: "2023-02-01"
-author: "Amar Shavir"
+    - religion
+    - philosophy
+
+date: 2023-02-01
 slug: 'angels'
 summary: "For as long as I can remember, I have been fascinated with the divine "
 ---

@@ -1,8 +1,8 @@
 ---
-title:  "Kings"
-topics: "philosophy"
+title:  Kings
+topics: 
+    - philosophy
 date: 2023-02-26
-author: "Amar Shavir"
 ---
 
 ## What is the role of King?
