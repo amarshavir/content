@@ -4,7 +4,7 @@ date: 2024-01-22
 
 
 {{< rawhtml >}}
-  <a href="pdf/resume.pdf" download> Download Resume </a>
+  <a href="/pdf/resume.pdf" download> Download Resume </a>
 {{< /rawhtml >}}
 
 ## EDUCATION
