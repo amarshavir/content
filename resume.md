@@ -2,19 +2,19 @@
 date: 2024-01-22
 ---
 
-{{< rawhtml >}}
-  <p class="speshal-fancy-custom">
-    This is <strong>raw HTML</strong>, inside Markdown.
-  </p>
 
-  <a href="/cv.pdf" download> Down Resume </a>
+{{< rawhtml >}}
+  <a href="pdf/resume.pdf" download> Download Resume </a>
 {{< /rawhtml >}}
 
 ## EDUCATION
 - 2023 -- Present: University of Louisville
-  - B.A. in Computer Science & Political Science
-  - Amazon Future Engineer — Porter Scholars — McConnell Scholars — Honors Program
   - GPA: 3.9
+  - B.A. in Computer Science & Political Science
+    - Amazon Future Engineer 
+    - Porter Scholars 
+    - McConnell Scholars 
+    - Honors Program
 
 ## EXPERIENCE
 
@@ -48,21 +48,15 @@ date: 2024-01-22
 
 
 ## TECHNICAL STRENGTHS
-- Computer Languages
-  - Python[Pandas]
-  - Javascript[Node] 
-  - C/C++
-  - Bash
-- Protocols & APIs
-  - YAML
-  - CSV 
-  - JSON
-  - REST
-  - GraphQL
-- Databases
-  - MySQL
-  - Mongodb
-- Tools
-  - Linux, 
-  - NeoVim[Vim]
-  - Github[Git]
+
+
+| languages  | Tools       | APIs    |
+|------------|-------------|---------|
+| Python     | Linux       | YAML    |
+| Javascript | Neovim[Vim] | CSV     |
+| C++[C]     | Github[Git] | JSON    |
+| Bash       |             | REST    |
+| Latex      |             | GraphQL |
+| Markdown   |             |         |
+|            |             |         |
+
