@@ -1,5 +1,7 @@
 
-{{< button href="/cv.pdf" target="_self" >}} Download CV {{< /button >}}
+
+<a href="/cv.pdf" download> Down Resume </a>
+
 
 ## EDUCATION
 - 2023 -- Present: University of Louisville
