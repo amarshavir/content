@@ -3,9 +3,6 @@ date: 2024-01-22
 ---
 
 
-{{< rawhtml >}}
-  <a href="/pdf/resume.pdf" download> Download Resume </a>
-{{< /rawhtml >}}
 
 ## EDUCATION
 - 2023 -- Present: University of Louisville
@@ -60,3 +57,7 @@ date: 2024-01-22
 | Markdown   |             |         |
 |            |             |         |
 
+
+{{< a href="pdf/resume.pdf" download="resume">}}
+  Click here to download a PDF copy!
+{{< /a >}}
